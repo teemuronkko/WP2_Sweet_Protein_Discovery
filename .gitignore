@@ -1,0 +1,54 @@
+# macOS system files
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Editor and IDE files
+.vscode/
+.idea/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Compiled Java files
+*.class
+
+# Log files
+*.log
+
+# MSA and pickle files
+*.pkl
+*.a3m
+*.sto
+*.zst
+*.zip
+
+# Ignore large plant protein datasets
+1_viridiplantae_prot_db/2_uniprot_data/*.fasta
+1_viridiplantae_prot_db/2_uniprot_data/*.tsv
+1_viridiplantae_prot_db/duplicate_sequences.json
+1_viridiplantae_prot_db/1_oneKP_capstone_2019/parsed_transcripts/
+1_viridiplantae_prot_db/1_oneKP_capstone_2019/*.tsv
+1_viridiplantae_prot_db/*.fasta
+1_viridiplantae_prot_db/3_database_batches/OneKP_batches/*.fasta
+1_viridiplantae_prot_db/3_database_batches/UniProt_batches/*.fasta
+2_foldseek_db/foldseek_OneKP
+2_foldseek_db/foldseek_UniProt
+2_foldseek_db/viridiplantae_prot_db_OneKP
+2_foldseek_db/viridiplantae_prot_db_UniProt
+3_foldseek_search/*.tsv
+4_afdb_structures/allergendb_afdb_structures
+4_afdb_structures/toxindb_afdb_structures
+4_afdb_structures/uniprot_hits_afdb_structures
+4_afdb_structures/proteins_to_remove_from_UniProtKB.txt
+5_openfold3_models/*.tar.gz
+5_openfold3_models/fastas/
+6_structural_analyses/1_tm_scores/cropped_structures/
+6_structural_analyses/1_tm_scores/OneKP/
+6_structural_analyses/1_tm_scores/UniProt/
+6_structural_analyses/1_tm_scores/*.tsv
+6_structural_analyses/3_representative_structures/
+6_structural_analyses/tmp/
+6_structural_analyses/4_surfdiff_results/

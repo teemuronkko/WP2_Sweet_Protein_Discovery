@@ -1,0 +1,11 @@
+>> Job with SLURM array id 3 started at: Mon Mar 16 09:35:01 CET 2026
+   On Machine:     ilfgridgpun03fl.unicph.domain
+   In directory:   /home/pqh443
+
+
+>> ****** Relaxing /home/pqh443/sweet_protein_pdbs/MNEI_1IV7.pdb ******
+
+>> Relaxation finished for /home/pqh443/sweet_protein_pdbs/MNEI_1IV7.pdb.
+
+>> Job finished at: Mon Mar 16 09:35:25 CET 2026
+>> Runtime: 24 s

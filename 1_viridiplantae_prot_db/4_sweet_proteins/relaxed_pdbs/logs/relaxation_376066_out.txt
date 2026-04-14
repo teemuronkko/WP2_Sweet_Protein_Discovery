@@ -1,0 +1,11 @@
+>> Job with SLURM array id 6 started at: Mon Mar 16 10:41:39 CET 2026
+   On Machine:     ilfgridgpun01fl.unicph.domain
+   In directory:   /home/pqh443
+
+
+>> ****** Relaxing /home/pqh443/sweet_protein_pdbs/Thaumatin-I_1LR2.pdb ******
+
+>> Relaxation finished for /home/pqh443/sweet_protein_pdbs/Thaumatin-I_1LR2.pdb.
+
+>> Job finished at: Mon Mar 16 10:42:09 CET 2026
+>> Runtime: 30 s

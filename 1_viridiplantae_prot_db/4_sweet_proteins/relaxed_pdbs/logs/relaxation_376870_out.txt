@@ -1,0 +1,11 @@
+>> Job with SLURM array id 2 started at: Sun Mar 15 21:43:40 CET 2026
+   On Machine:     ilfgridgpun01fl.unicph.domain
+   In directory:   /home/pqh443
+
+
+>> ****** Relaxing /home/pqh443/sweet_protein_pdbs/Honey_truffle_sweetener.pdb ******
+
+>> Relaxation finished for /home/pqh443/sweet_protein_pdbs/Honey_truffle_sweetener.pdb.
+
+>> Job finished at: Sun Mar 15 21:44:00 CET 2026
+>> Runtime: 20 s

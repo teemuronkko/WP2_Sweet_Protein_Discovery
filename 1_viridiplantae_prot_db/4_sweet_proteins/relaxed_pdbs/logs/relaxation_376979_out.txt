@@ -1,0 +1,11 @@
+>> Job with SLURM array id 4 started at: Mon Mar 16 10:38:39 CET 2026
+   On Machine:     ilfgridgpun03fl.unicph.domain
+   In directory:   /home/pqh443
+
+
+>> ****** Relaxing /home/pqh443/sweet_protein_pdbs/Miraculin.pdb ******
+
+>> Relaxation finished for /home/pqh443/sweet_protein_pdbs/Miraculin.pdb.
+
+>> Job finished at: Mon Mar 16 10:39:13 CET 2026
+>> Runtime: 34 s

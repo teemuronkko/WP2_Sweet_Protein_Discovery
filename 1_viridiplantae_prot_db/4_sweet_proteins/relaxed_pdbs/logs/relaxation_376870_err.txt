@@ -1,0 +1,33 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+2026-03-15 21:43:45.924031: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-03-15 21:43:45.924149: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-03-15 21:43:45.924163: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /home/pqh443/sweet_protein_pdbs/Honey_truffle_sweetener.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 120 (GLN) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 948 / 1883 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-03-15 21:43:57.549751: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2131.31 Efinal -2016.14 Time 6.27 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /home/pqh443/sweet_protein_pdbs/Honey_truffle_sweetener.pdb
+INFO:absl:Saving relaxed .pdb structure to /projects/ilfgrid/people/pqh443/relaxed_sweet_protein_predictions/sweet_protein_pdbs/cpu_relaxed_Honey_truffle_sweetener.pdb

@@ -1,0 +1,23 @@
+#!/bin/bash -l
+#SBATCH --partition=cpu_jobs
+#SBATCH --qos=cpu
+#SBATCH --job-name=Plant_TSV
+#SBATCH --mem=64G
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --nodes=1
+#SBATCH --output=/projects/ilfgrid/people/pqh443/temp/logs/%j_out.txt
+#SBATCH --error=/projects/ilfgrid/people/pqh443/temp/logs/%j_err.txt
+#SBATCH --time=1-00:00:00
+
+module load miniconda                                           
+conda activate base
+output_path="/projects/ilfgrid/people/pqh443/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/2_uniprot_data"
+mkdir -p ./logs
+
+# Run fasta script
+python ./get_uniprot_plant_proteins.py
+
+mv "/projects/ilfgrid/people/pqh443/temp/logs/${SLURM_JOB_ID}_err.txt" "${output_path}/logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_err.txt"
+mv "/projects/ilfgrid/people/pqh443/temp/logs/${SLURM_JOB_ID}_out.txt" "${output_path}/logs/${SLURM_JOB_NAME}_${SLURM_JOB_ID}_out.txt"
+
