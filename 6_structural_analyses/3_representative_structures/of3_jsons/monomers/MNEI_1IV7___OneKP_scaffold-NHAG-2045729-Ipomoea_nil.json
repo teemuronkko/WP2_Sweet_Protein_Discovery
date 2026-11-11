@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "MNEI_1IV7___OneKP_scaffold-NHAG-2045729-Ipomoea_nil": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GGRTEIEDVKTNKEIQQLGKYCVEEYNSGLKQKKQGTGKLLSFSEVVKAEKQVVNGIKYYLRISASTAGGEANTFDAVVVVKPWAKSKELLSFAPAT",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/MNEI_1IV7___OneKP_scaffold-NHAG-2045729-Ipomoea_nil/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

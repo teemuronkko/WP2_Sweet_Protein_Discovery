@@ -1,0 +1,288 @@
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_1.pdb:
+ MET GLU GLU HIS THR ILE TYR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_2.pdb:
+ MET GLU GLU GLU HIS THR ILE TYR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_3.pdb:
+ MET GLU GLU GLU ILE ILE LYS HIS THR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_4.pdb:
+ GLU GLU GLU ILE VAL ILE LYS HIS THR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_5.pdb:
+ GLU GLU ILE VAL PRO PRO VAL ILE LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_6.pdb:
+ GLU ILE VAL PRO VAL ASP PHE THR PRO VAL ILE LYS TYR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_7.pdb:
+ ILE VAL PRO VAL ASP THR PRO VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_8.pdb:
+ VAL PRO VAL ASP GLU PHE THR GLN VAL VAL GLU PRO VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_9.pdb:
+ VAL PRO VAL ASP GLU PHE THR GLN GLU VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_10.pdb:
+ VAL ASP GLU PHE THR GLN GLU LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_11.pdb:
+ VAL ASP GLU PHE THR GLN GLU LEU GLY LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_12.pdb:
+ VAL VAL ASP GLU PHE THR GLN GLU LEU GLY LYS PHE VAL VAL TYR LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_13.pdb:
+ VAL ASP GLU PHE THR GLN GLU LEU GLY LYS PHE PHE LYS VAL VAL LEU VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_14.pdb:
+ GLU PHE THR GLN GLU LEU GLY LYS PHE ALA PHE VAL LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_15.pdb:
+ PHE THR GLN GLU LEU GLY LYS PHE ALA VAL PHE VAL VAL TYR LEU ILE LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_16.pdb:
+ THR GLN GLU LEU GLY LYS PHE ALA VAL GLU PHE LYS VAL VAL LEU VAL ILE ALA ILE PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_17.pdb:
+ GLN GLU LEU GLY LYS PHE ALA VAL GLU GLU PHE VAL LEU VAL ILE PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_18.pdb:
+ GLU LEU GLY LYS PHE ALA VAL GLU GLU GLN PHE LEU ILE LYS LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_19.pdb:
+ LEU GLY LYS PHE ALA VAL GLU GLU GLN ASN PHE LEU VAL ALA VAL ILE LEU PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_20.pdb:
+ GLY LYS PHE ALA VAL GLU GLU GLN ASN LYS LEU THR PHE VAL ALA ALA LEU PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_21.pdb:
+ LYS PHE ALA VAL GLU GLU GLN ASN LYS LEU PHE LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_22.pdb:
+ PHE ALA VAL GLU GLU GLN ASN LYS LYS GLY LEU PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_23.pdb:
+ ALA VAL GLU GLU GLN ASN LYS LYS GLY GLU PHE LEU LEU PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_24.pdb:
+ VAL GLU GLU GLN ASN LYS LYS GLY GLU PHE GLY LYS LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_25.pdb:
+ GLU GLU GLN ASN LYS LYS GLY GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_26.pdb:
+ GLU GLN ASN LYS LYS GLY GLU PHE LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_27.pdb:
+ GLN ASN LYS LYS GLY GLU PHE GLY LYS LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_28.pdb:
+ GLN ASN LYS GLY GLU PHE GLY
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_29.pdb:
+ GLN ASN GLY GLU PHE GLY LYS LEU TYR PHE PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_30.pdb:
+ GLN ASN GLY GLU PHE GLY LYS LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_31.pdb:
+ VAL ASN GLY PHE GLY LYS LEU THR SER
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_32.pdb:
+ VAL GLN ASN PHE GLY LYS LEU THR PHE ALA SER TYR PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_33.pdb:
+ VAL ASN LYS LEU THR PHE ASP ALA SER ASN
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_34.pdb:
+ GLY LYS VAL GLU ASN LEU THR PHE ASP LYS VAL ILE ALA SER ASN
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_35.pdb:
+ GLN VAL THR PHE ASP LYS VAL VAL ILE ALA SER ASN
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_36.pdb:
+ VAL GLN GLY LYS PHE ASP LYS VAL VAL VAL ILE ALA
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_37.pdb:
+ VAL THR GLN GLY LYS PHE ASP LYS VAL VAL GLU VAL LEU TYR VAL ILE LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_38.pdb:
+ VAL GLN LYS VAL VAL GLU PRO VAL LEU TYR VAL ILE LEU TRP
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_39.pdb:
+ PRO VAL VAL VAL GLU PRO VAL LEU TYR PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_40.pdb:
+ ILE VAL PRO VAL THR VAL VAL GLU PRO VAL ILE LEU TYR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_41.pdb:
+ ILE VAL PRO VAL THR LEU VAL GLU PRO VAL ILE LYS TYR GLU LEU TYR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_42.pdb:
+ GLU GLU ILE VAL PRO VAL ILE LYS HIS TYR GLU LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_43.pdb:
+ GLU GLU ILE VAL PHE VAL ILE LYS HIS THR TYR ILE TYR GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_44.pdb:
+ MET GLU GLU GLU ILE LYS HIS THR ILE TYR ILE TYR GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_45.pdb:
+ MET GLU GLU GLU LYS HIS THR ILE TYR ILE LYS GLY TYR ILE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_46.pdb:
+ MET GLU HIS THR ILE TYR GLU ILE LYS GLY TYR ILE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_47.pdb:
+ MET THR ILE TYR GLU LYS GLU GLY GLU LYS LYS ILE LYS GLY
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_48.pdb:
+ ILE TYR GLU LYS GLU GLU LYS ILE LYS GLY
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_49.pdb:
+ ILE TYR GLU LYS GLU GLY GLU LYS LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_50.pdb:
+ MET TYR LYS GLU GLY GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_51.pdb:
+ TYR LYS GLU GLY GLU LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_52.pdb:
+ TYR GLU LYS GLU GLY GLU LYS LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_53.pdb:
+ TYR GLU LYS GLY GLU LYS LYS ILE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_54.pdb:
+ TYR GLU LYS GLU LYS LYS ILE LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_55.pdb:
+ THR ILE TYR GLU LYS LYS LYS ILE LYS GLY TYR ALA GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_56.pdb:
+ THR ILE TYR GLU LYS LYS ILE LYS GLY TYR ASN ALA GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_57.pdb:
+ THR ILE TYR ILE LYS GLY TYR ILE SER GLU ASN ALA GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_58.pdb:
+ LYS HIS THR ILE ILE LYS GLY TYR ILE TYR SER GLU ASN ALA
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_59.pdb:
+ MET LYS HIS THR ILE GLY TYR ILE TYR GLU VAL ILE SER GLU LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_60.pdb:
+ VAL PHE LEU VAL ILE LYS HIS TYR ILE TYR GLU LEU VAL ILE SER GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_61.pdb:
+ LEU VAL ILE LYS HIS ILE TYR GLU LEU TYR LYS ALA VAL ILE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_62.pdb:
+ THR LEU GLY VAL VAL GLU VAL ILE TYR GLU LEU TYR VAL LYS ALA VAL ILE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_63.pdb:
+ VAL VAL GLU VAL LEU TYR VAL ILE LEU TYR LYS ALA VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_64.pdb:
+ GLY ALA VAL PHE ASP LYS VAL VAL LEU TYR VAL ILE ALA LEU TYR LYS ALA PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_65.pdb:
+ VAL PHE ASP LYS VAL VAL TYR VAL ILE ALA SER ASN LYS LEU TYR PHE TRP
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_66.pdb:
+ VAL LEU THR PHE ASP LYS VAL ILE ALA SER ASN LYS LEU TYR PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_67.pdb:
+ VAL LEU THR PHE ASP ILE ALA SER ASN LYS TYR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_68.pdb:
+ ASP ILE ALA SER ASN LYS LEU TYR TRP
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_69.pdb:
+ LEU ASP ILE ALA SER ASN LYS LEU TYR PRO VAL TRP
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_70.pdb:
+ VAL TYR VAL ILE ALA ASN LYS LEU TYR LYS GLY PRO VAL TRP PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_71.pdb:
+ LEU TYR VAL ILE ALA LYS LEU TYR LYS ALA PHE GLU GLY PRO VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_72.pdb:
+ GLU LEU TYR VAL LEU TYR LYS ALA VAL SER PHE GLU GLY VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_73.pdb:
+ GLY ALA GLU LEU TYR VAL TYR LYS ALA VAL ILE LEU LEU SER PHE GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_74.pdb:
+ ALA ILE TYR GLU LEU LYS ALA VAL ILE SER LEU LEU SER PHE GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_75.pdb:
+ LEU PHE ALA ILE TYR GLU LEU ALA VAL ILE SER GLU LYS THR LEU LEU SER
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_76.pdb:
+ LEU PHE ILE GLY TYR ILE TYR VAL ILE SER GLU ASN LYS THR LEU LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_77.pdb:
+ LEU GLY TYR ILE TYR ILE SER GLU ASN ALA GLY GLU LYS THR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_78.pdb:
+ ILE LYS GLY TYR SER GLU ASN ALA GLU THR GLY GLU LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_79.pdb:
+ ILE LYS GLY TYR GLU ASN ALA GLU THR GLY GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_80.pdb:
+ LYS LYS GLY ASN ALA GLU THR GLY GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_81.pdb:
+ GLU ASN ALA GLU THR GLY GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_82.pdb:
+ TYR GLU ASN ALA GLU THR GLY GLU LYS
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_83.pdb:
+ PHE SER GLU ASN THR GLY GLU LYS THR
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_84.pdb:
+ LEU PHE GLU TYR ILE SER GLU ASN GLY GLU LYS THR LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_85.pdb:
+ PHE GLU ILE SER GLU ASN GLU LYS THR LEU LEU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_86.pdb:
+ PHE ALA GLU GLN LYS ALA VAL ILE SER LYS THR LEU LEU SER PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_87.pdb:
+ LYS ILE VAL ILE SER THR LEU LEU SER PHE
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_88.pdb:
+ GLN LYS LYS ALA VAL ILE LEU LEU SER PHE GLU
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_89.pdb:
+ ALA GLN LYS GLU PHE VAL TYR LYS ALA VAL LEU SER PHE GLU GLY
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_90.pdb:
+ GLN PHE TYR LYS ALA SER PHE GLU GLY PRO VAL
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_91.pdb:
+ PHE LYS LEU TYR LYS PHE GLU GLY PRO VAL PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_92.pdb:
+ PHE LYS LEU TYR LYS PHE GLU GLY PRO VAL PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_93.pdb:
+ TYR LYS LEU TYR LYS GLU GLY PRO VAL PRO TRP PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_94.pdb:
+ LEU PRO VAL PRO TRP PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_95.pdb:
+ LEU VAL PRO TRP PRO
+
+sequence for cpu_relaxed_free_01_MNEI_1IV7_15_96.pdb:
+ GLU LEU VAL PRO TRP PRO
+

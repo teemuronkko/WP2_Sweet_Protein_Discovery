@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-BQEQ-2012564-Psychotria_ipecacuanha-invitro_plantlet": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "AIFTLINNCPYTIWPAIFSLPRSPKISSTGFALHAAESTTIQADSAWGGFIWARTHCIQDSTGNFSCLTGDCGSGKVECAGAKGAPPATVAEFTVDGSSGMDFYDVSLVDGFNLPMLVVPFGTGRSDCKTTGCAVDLNKGCPSELKVTGTDGEIVACKSACKAFGKDEYCCAGNFSTPDTCKPSSYSNAFKNACPRAYTYAYDDKTGMFECAGSVYSITFCPAT",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-BQEQ-2012564-Psychotria_ipecacuanha-invitro_plantlet/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

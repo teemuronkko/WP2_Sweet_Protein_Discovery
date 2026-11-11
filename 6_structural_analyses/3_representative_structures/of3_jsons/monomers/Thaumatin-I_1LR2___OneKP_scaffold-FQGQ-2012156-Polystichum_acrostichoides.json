@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-FQGQ-2012156-Polystichum_acrostichoides": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "ASFTFENSCKYTVWPGILSNGGLPLLAEGGFELGVGQTRTLDAPVGWSGRFWGRTGCSFADSTAASAVACQTGDCGGKLQCSGAGAAPPATLAEITLAGMQPSVKQDFYDVSMVDGYNIPIALAPSTTNSNSSSASTSSEQQATAASSSDSYICQVAGCATDLNLNCPSELQVLAGATASALANGAAVVGCKSACEAFQSPQYCCTGSYANPSTCQPSSYSQLFKQACPLAYSYAFDDPTSTFTCTGADYSIIFCPSS",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-FQGQ-2012156-Polystichum_acrostichoides/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

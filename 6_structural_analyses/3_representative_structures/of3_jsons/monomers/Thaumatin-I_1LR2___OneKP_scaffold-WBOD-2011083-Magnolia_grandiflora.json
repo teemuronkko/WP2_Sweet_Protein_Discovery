@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-WBOD-2011083-Magnolia_grandiflora": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "LILTVVNNCPFTVWPAIQPNAGHDVLERGGFALQTLTHRSFAAPDHHWTGRIWGRTGCTYQAGHFTCATGDCGGRPPGCNGAGGATPATLAQFSLHHAHDQSSYSVSLVDGYNLPMTVTPHEGQGMCPVVGCKADLLPTCPPALQMRVPPRTGPVRACKSGCEAFGTDELCCRNHFNSPQSCRGSSYSEFFKHACPATYTYAHDSPSLTHNCVSPRELKVIFCH",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-WBOD-2011083-Magnolia_grandiflora/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

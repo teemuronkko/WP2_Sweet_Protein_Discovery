@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___E9NH18": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "VRASGNPVLDVKGLGLLPGVPYYMISSEWPIVGGVVSLGNDINGTCPLDVILLENFCVTGTPVTFTIASGDQELFITDSTDLYISFDSTSNCTNETMVWMHESSNSSSTELLTIGGVEGDVNTLFRIVNVGGSFVSNYKLLAYKLSSYDLALTTSDVGAVFDFTTGIRYLALTEPPLIVGFQVAY",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___E9NH18/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

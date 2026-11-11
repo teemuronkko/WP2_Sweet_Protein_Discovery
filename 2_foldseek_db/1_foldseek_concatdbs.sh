@@ -5,26 +5,25 @@
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=10G
 #SBATCH --job-name=foldseek_concatDB
-#SBATCH --output=/groups/scienceai/tronkko/temp/logs/%j_out.txt
-#SBATCH --error=/groups/scienceai/tronkko/temp/logs/%j_err.txt
+#SBATCH --output=~/temp/logs/%j_out.txt
+#SBATCH --error=~/temp/logs/%j_err.txt
 #SBATCH --time=1:00:00
 USER=$(whoami)
 if [[ "$USER" == "pqh443" ]]; then
-    REPO_DIR="/Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery"
-    REPO_DIR="/Users/pqh443/Desktop"
+    repo_path="~/Documents/Git_projects/WP2_Sweet_Protein_Discovery"
 elif [[ "$USER" == "tronkko" ]]; then
-    REPO_DIR="/groups/scienceai/tronkko/WP2_SweetProteinDiscovery"
+    repo_path="~/WP2_Sweet_Protein_Discovery"
     conda activate foldseek_env
     NODE="${SLURMD_NODENAME:-$HOSTNAME}"
     echo "Running on node: $NODE"
     if [[ "$NODE" == "node263" ]]; then
         echo "Activating env for node263"
         conda activate foldseek_env
-        WDIR="/groups/scienceai/tronkko/foldseek/foldseek"
+        WDIR="~/foldseek/foldseek"
     elif [[ "$NODE" == "node264" ]]; then
         echo "Activating env for node264"
-        conda activate /lustre/hpc/scienceai/tronkko/foldseek_env_V100
-        WDIR="/groups/scienceai/tronkko/foldseek/foldseek_V100/foldseek"
+        conda activate ~/foldseek_env_V100
+        WDIR="~/foldseek/foldseek_V100/foldseek"
     fi
     cd $WDIR
     export PATH="$WDIR/build/bin":$PATH
@@ -33,9 +32,9 @@ else
 fi
 
 DB=$1
-DB_OUTPUT_PATH="${REPO_DIR}/foldseek_db/foldseek_${DB}"
-DB_OUTPUT_TEMP_PATH="${REPO_DIR}/foldseek_db/temp_foldseek_${DB}"
-INPUT_FOLDER="${REPO_DIR}/foldseek_db/viridiplantae_prot_db_${DB}"
+DB_OUTPUT_PATH="${repo_path}/foldseek_db/foldseek_${DB}"
+DB_OUTPUT_TEMP_PATH="${repo_path}/foldseek_db/temp_foldseek_${DB}"
+INPUT_FOLDER="${repo_path}/foldseek_db/viridiplantae_prot_db_${DB}"
 echo "Output path: $DB_OUTPUT_PATH"
 echo "Input folder: $INPUT_FOLDER"
 mkdir -p $DB_OUTPUT_PATH
@@ -86,7 +85,7 @@ done
 mv $DB_OUTPUT_TEMP_PATH $DB_OUTPUT_PATH
 
 if [[ "$USER" == "tronkko" ]]; then
-    mv /groups/scienceai/tronkko/temp/logs/${SLURM_JOB_ID}_out.txt ${DB_OUTPUT_PATH}/merge_${DB}_${SLURM_JOB_ID}_out.txt
-    mv /groups/scienceai/tronkko/temp/logs/${SLURM_JOB_ID}_err.txt ${DB_OUTPUT_PATH}/merge_${DB}_${SLURM_JOB_ID}_err.txt
+    mv ~/temp/logs/${SLURM_JOB_ID}_out.txt ${DB_OUTPUT_PATH}/merge_${DB}_${SLURM_JOB_ID}_out.txt
+    mv ~/temp/logs/${SLURM_JOB_ID}_err.txt ${DB_OUTPUT_PATH}/merge_${DB}_${SLURM_JOB_ID}_err.txt
 fi
 

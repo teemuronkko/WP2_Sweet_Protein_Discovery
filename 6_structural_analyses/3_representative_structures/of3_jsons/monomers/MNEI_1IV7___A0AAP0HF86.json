@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "MNEI_1IV7___A0AAP0HF86": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GGFETIDPKDPHVIEIGRYAVDAHNKQPLTCTNNLKFVTVVRAERQIVEGTNYRLRITVMNGRVQQTYEAIVFEDKNGQRSLNSFKIIAV",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/MNEI_1IV7___A0AAP0HF86/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

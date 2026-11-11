@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Thaumatin-I_1LR2.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_alphafold3_models/OneKP/models/onekp_scaffold-cmcy-2152096-hesperaloe_parviflora/onekp_scaffold-cmcy-2152096-hesperaloe_parviflora_model.pdb
+Length of Chain_1: 207 residues
+Length of Chain_2: 128 residues
+
+Aligned length= 121, RMSD=   1.81, Seq_ID=n_identical/n_aligned= 0.421
+TM-score= 0.54593 (if normalized by length of Chain_1, i.e., LN=207, d0=5.35)
+TM-score= 0.85948 (if normalized by length of Chain_2, i.e., LN=128, d0=4.19)
+TM-score= 0.54593 (if normalized by user-specified LN=207.00 and d0=5.35)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+---ATFEIVNRCSYTVWAAASKGDAALDAGGRQLNSGESWTINVEPGTNGGKIWARTDCYFDDSGSGICKTGDCG-GLLRCK-RFGRPPTTLAEFSLNQ-YGKDYIDISNIKGFNVPMNFSPTTRGCRGVRCAADIVGQCPAKLKAPGGGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA-
+   ::::::::::::::::::::...::::::::::::::::::::::: ::::::::::::::::::::::::: :::::: :::::::::::::::: ::::::::::::::::::::::::::.                                                                      .                
+VQSTMFTVVNKCNYTVWPGVRTDKETFSSTGFTLAAGESRTLRAPVGWN-GRFWGRTGCKFDDNGRGNCSTGDCGSDQIECNGAGSTPPATLAEFKLNGVNGEDFYDVSLVDGFNLPVLVQPKGGAG----------------------------------------------------------------------S---------------C
+
+Total CPU time is  0.02 seconds

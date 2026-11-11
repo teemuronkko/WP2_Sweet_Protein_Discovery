@@ -5,26 +5,26 @@
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=256G
 #SBATCH --job-name=foldseek_search
-#SBATCH --output=/groups/scienceai/tronkko/temp/logs/%j_out.txt
-#SBATCH --error=/groups/scienceai/tronkko/temp/logs/%j_err.txt
+#SBATCH --output=~/temp/logs/%j_out.txt
+#SBATCH --error=~/temp/logs/%j_err.txt
 #SBATCH --time=1-00:00:00
 export CUDA_VISIBLE_DEVICES=""
 USER=$(whoami)
 if [[ "$USER" == "pqh443" ]]; then
-    REPO_DIR="/Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery"
+    repo_path="~/Documents/Git_projects/WP2_Sweet_Protein_Discovery"
 elif [[ "$USER" == "tronkko" ]]; then
-    REPO_DIR="/groups/scienceai/tronkko/WP2_SweetProteinDiscovery"
+    repo_path="~/WP2_Sweet_Protein_Discovery"
     conda activate foldseek_env
     NODE="${SLURMD_NODENAME:-$HOSTNAME}"
     echo "Running on node: $NODE"
     if [[ "$NODE" == "node263" ]]; then
         echo "Activating env for node263"
         conda activate foldseek_env
-        WDIR="/groups/scienceai/tronkko/foldseek/foldseek"
+        WDIR="~/foldseek/foldseek"
     elif [[ "$NODE" == "node264" ]]; then
         echo "Activating env for node264"
-        conda activate /lustre/hpc/scienceai/tronkko/foldseek_env_V100
-        WDIR="/groups/scienceai/tronkko/foldseek/foldseek_V100/foldseek"
+        conda activate ~/foldseek_env_V100
+        WDIR="~/foldseek/foldseek_V100/foldseek"
     fi
     cd $WDIR
     export PATH="$WDIR/build/bin":$PATH
@@ -33,7 +33,7 @@ else
 fi
 
 # Set foldseek paths and activate conda env
-FOLDSEEK_DIR="/groups/scienceai/tronkko/foldseek"
+FOLDSEEK_DIR="~/foldseek"
 MODEL_WEIGHTS="$FOLDSEEK_DIR/weights"
 TMP_DIR="$FOLDSEEK_DIR/tmp"
 mkdir -p $MODEL_WEIGHTS
@@ -65,6 +65,6 @@ foldseek easy-search "$INPUT_DB" "$TARGET_DB" $OUTPUT $TMP_DIR \
 	--format-mode 4
 
 # Move log files
-LOG_PATH="/groups/scienceai/tronkko/temp/logs"
+LOG_PATH="~/temp/logs"
 mv "${LOG_PATH}/${SLURM_JOB_ID}_out.txt" ${OUTPUT_DIR}/logs/foldseek_search_${DB_NAME}_${SLURM_JOB_ID}_out.txt
 mv "${LOG_PATH}/${SLURM_JOB_ID}_err.txt" ${OUTPUT_DIR}/logs/foldseek_search_${DB_NAME}_${SLURM_JOB_ID}_err.txt

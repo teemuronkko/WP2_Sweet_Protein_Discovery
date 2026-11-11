@@ -1,10 +1,10 @@
 Running on node: node264
 Activating env for node264
-Input DB: /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/sweet_proteins/sweet_proteins
-TARGET_DB: /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/foldseek_UniProt/foldseek_UniProt
-OUTPUT: /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_results/foldseek_UniProt_search.tsv
-TMP_DIR: /groups/scienceai/tronkko/foldseek/tmp
-easy-search /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/sweet_proteins/sweet_proteins /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/foldseek_UniProt/foldseek_UniProt /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_results/foldseek_UniProt_search.tsv /groups/scienceai/tronkko/foldseek/tmp --exhaustive-search 1 --min-ungapped-score 30 --threads 8 -e 0.05 --alignment-type 2 -c 0.50 --cov-mode 2 --format-output query,target,evalue,bits,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qseq,tseq,q3di,t3di,qheader,theader,qaln,taln,q3dialn,t3dialn,qcov,tcov --format-mode 4 
+Input DB: ~/WP2_Sweet_Protein_Discovery/foldseek_db/sweet_proteins/sweet_proteins
+TARGET_DB: ~/WP2_Sweet_Protein_Discovery/foldseek_db/foldseek_UniProt/foldseek_UniProt
+OUTPUT: ~/WP2_Sweet_Protein_Discovery/foldseek_results/foldseek_UniProt_search.tsv
+TMP_DIR: ~/foldseek/tmp
+easy-search ~/WP2_Sweet_Protein_Discovery/foldseek_db/sweet_proteins/sweet_proteins ~/WP2_Sweet_Protein_Discovery/foldseek_db/foldseek_UniProt/foldseek_UniProt ~/WP2_Sweet_Protein_Discovery/foldseek_results/foldseek_UniProt_search.tsv ~/foldseek/tmp --exhaustive-search 1 --min-ungapped-score 30 --threads 8 -e 0.05 --alignment-type 2 -c 0.50 --cov-mode 2 --format-output query,target,evalue,bits,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qseq,tseq,q3di,t3di,qheader,theader,qaln,taln,q3dialn,t3dialn,qcov,tcov --format-mode 4 
 
 MMseqs Version:                    	799792f3799d76688f51122871229a20ad859dc0
 TMscore threshold                  	0
@@ -101,10 +101,10 @@ Report mode                        	2
 Greedy best hits                   	false
 
 Alignment backtraces will be computed, since they were requested by output format.
-Create directory /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp
-search /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/sweet_proteins/sweet_proteins /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/foldseek_UniProt/foldseek_UniProt /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/result /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp --alignment-type 2 -a 1 --alignment-mode 3 -e 0.05 -c 0.5 --cov-mode 2 --threads 8 -s 9.5 -k 6 --min-ungapped-score 30 --exhaustive-search 1 --remove-tmp-files 1 
+Create directory ~/foldseek/tmp/4161666616260815356/search_tmp
+search ~/WP2_Sweet_Protein_Discovery/foldseek_db/sweet_proteins/sweet_proteins ~/WP2_Sweet_Protein_Discovery/foldseek_db/foldseek_UniProt/foldseek_UniProt ~/foldseek/tmp/4161666616260815356/result ~/foldseek/tmp/4161666616260815356/search_tmp --alignment-type 2 -a 1 --alignment-mode 3 -e 0.05 -c 0.5 --cov-mode 2 --threads 8 -s 9.5 -k 6 --min-ungapped-score 30 --exhaustive-search 1 --remove-tmp-files 1 
 
-structurealign /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/sweet_proteins/sweet_proteins /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/foldseek_UniProt/foldseek_UniProt /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/pref /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/strualn --tmscore-threshold 0 --tmscore-threshold-mode 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 1 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.05 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.5 --cov-mode 2 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 8 --compressed 0 -v 3 
+structurealign ~/WP2_Sweet_Protein_Discovery/foldseek_db/sweet_proteins/sweet_proteins ~/WP2_Sweet_Protein_Discovery/foldseek_db/foldseek_UniProt/foldseek_UniProt ~/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/pref ~/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/strualn --tmscore-threshold 0 --tmscore-threshold-mode 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 1 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.05 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.5 --cov-mode 2 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 8 --compressed 0 -v 3 
 
 Cannot find sweet_proteins C-alpha or foldseek_UniProt C-alpha database
 Disabling --sort-by-structure-bits
@@ -112,21 +112,21 @@ This impacts the final score and ranking of hits, but not E-values themselves. R
 [=================================================================] 6 0s 36ms
 Time for merging to strualn: 0h 0m 0s 20ms
 Time for processing: 0h 11m 40s 697ms
-mvdb /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/strualn /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/aln -v 3 
+mvdb ~/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/strualn ~/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/aln -v 3 
 
 Time for processing: 0h 0m 0s 8ms
-mvdb /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/aln /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/result -v 3 
+mvdb ~/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/aln ~/foldseek/tmp/4161666616260815356/result -v 3 
 
 Time for processing: 0h 0m 0s 15ms
 Removing temporary files
-rmdb /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/pref -v 3 
+rmdb ~/foldseek/tmp/4161666616260815356/search_tmp/14422497823388893394/pref -v 3 
 
 Time for processing: 0h 0m 0s 2ms
-convertalis /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/sweet_proteins/sweet_proteins /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_db/foldseek_UniProt/foldseek_UniProt /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/result /groups/scienceai/tronkko/WP2_SweetProteinDiscovery/foldseek_results/foldseek_UniProt_search.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 4 --format-output query,target,evalue,bits,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qseq,tseq,q3di,t3di,qheader,theader,qaln,taln,q3dialn,t3dialn,qcov,tcov --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 8 --compressed 0 -v 3 --exact-tmscore 0 
+convertalis ~/WP2_Sweet_Protein_Discovery/foldseek_db/sweet_proteins/sweet_proteins ~/WP2_Sweet_Protein_Discovery/foldseek_db/foldseek_UniProt/foldseek_UniProt ~/foldseek/tmp/4161666616260815356/result ~/WP2_Sweet_Protein_Discovery/foldseek_results/foldseek_UniProt_search.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 4 --format-output query,target,evalue,bits,pident,fident,nident,qstart,qend,qlen,tstart,tend,tlen,alnlen,qseq,tseq,q3di,t3di,qheader,theader,qaln,taln,q3dialn,t3dialn,qcov,tcov --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 8 --compressed 0 -v 3 --exact-tmscore 0 
 
 [=================================================================] 6 0s 767ms
 Time for merging to foldseek_UniProt_search.tsv: 0h 0m 0s 172ms
 Time for processing: 0h 0m 7s 940ms
-rmdb /groups/scienceai/tronkko/foldseek/tmp/4161666616260815356/result -v 3 
+rmdb ~/foldseek/tmp/4161666616260815356/result -v 3 
 
 Time for processing: 0h 0m 0s 6ms

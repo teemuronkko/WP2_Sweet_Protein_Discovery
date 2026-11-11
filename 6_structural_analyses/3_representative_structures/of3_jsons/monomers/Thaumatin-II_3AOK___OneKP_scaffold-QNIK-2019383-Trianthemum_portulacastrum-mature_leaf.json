@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___OneKP_scaffold-QNIK-2019383-Trianthemum_portulacastrum-mature_leaf": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TFTITNNCEYTVWPGILSNAGVPQLQSTGFPLQKGETKSINPPSGWAGRFWGRTLCSADNSTGKFTCQTGDCGSGKMDCSGAGATPPATLAEFTLSGAGGMDFYDVSLVDGYNLPMLVAPRGGSGPNCSFTGCVVDLNGACPSQLRVMSEEESGSGNTVACKSACDAFNSPQYCCSGAYGSPDTCKPSSFSMAFKKACPRAYSYAYDDKSSTFTCGGSPDYTITFCPSP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___OneKP_scaffold-QNIK-2019383-Trianthemum_portulacastrum-mature_leaf/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

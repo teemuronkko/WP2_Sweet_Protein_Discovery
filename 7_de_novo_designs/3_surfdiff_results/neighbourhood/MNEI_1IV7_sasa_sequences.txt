@@ -1,0 +1,231 @@
+sequence for MNEI_1IV7_sasa_1.pdb:
+ GLY GLU TRP LYS THR ILE TYR GLU GLY
+
+sequence for MNEI_1IV7_sasa_2.pdb:
+ GLY GLU TRP GLU LYS THR ILE TYR
+
+sequence for MNEI_1IV7_sasa_3.pdb:
+ GLY GLU TRP GLU ILE MET LYS LYS THR
+
+sequence for MNEI_1IV7_sasa_4.pdb:
+ GLU TRP GLU ILE ILE MET LYS LYS THR
+
+sequence for MNEI_1IV7_sasa_5.pdb:
+ TRP GLU ILE ILE ASP PRO MET LYS
+
+sequence for MNEI_1IV7_sasa_6.pdb:
+ GLU ILE ILE ASP ILE PHE ARG MET LYS
+
+sequence for MNEI_1IV7_sasa_7.pdb:
+ ILE ILE ASP ILE GLY ARG PRO
+
+sequence for MNEI_1IV7_sasa_8.pdb:
+ ILE ASP ILE GLY PRO PHE GLN ILE ARG
+
+sequence for MNEI_1IV7_sasa_9.pdb:
+ ASP ILE GLY PRO PHE GLN ASN
+
+sequence for MNEI_1IV7_sasa_10.pdb:
+ ILE GLY PRO PHE GLN ASN
+
+sequence for MNEI_1IV7_sasa_11.pdb:
+ ILE ILE GLY PRO PHE GLN ASN ARG
+
+sequence for MNEI_1IV7_sasa_13.pdb:
+ ILE GLY PRO PHE GLN ASN LYS PHE PHE LYS
+
+sequence for MNEI_1IV7_sasa_14.pdb:
+ PRO PHE GLN ASN LYS PHE PHE ARG
+
+sequence for MNEI_1IV7_sasa_17.pdb:
+ GLN ASN LYS PHE ASP GLU PHE
+
+sequence for MNEI_1IV7_sasa_18.pdb:
+ ASN LYS PHE ASP GLU ARG LEU
+
+sequence for MNEI_1IV7_sasa_21.pdb:
+ LYS PHE ASP GLU ASN LYS PHE LEU
+
+sequence for MNEI_1IV7_sasa_22.pdb:
+ PHE ASP GLU ASN LYS ILE GLY LEU PHE
+
+sequence for MNEI_1IV7_sasa_24.pdb:
+ ASP GLU ASN LYS ILE GLY GLN TYR GLY ARG
+
+sequence for MNEI_1IV7_sasa_25.pdb:
+ ASP GLU ASN LYS ILE GLY GLN ARG
+
+sequence for MNEI_1IV7_sasa_26.pdb:
+ GLU ASN LYS ILE GLY GLN TYR ARG LEU
+
+sequence for MNEI_1IV7_sasa_27.pdb:
+ ASN LYS ILE GLY GLN TYR GLY ARG
+
+sequence for MNEI_1IV7_sasa_28.pdb:
+ ILE GLY GLN TYR GLY
+
+sequence for MNEI_1IV7_sasa_29.pdb:
+ ASN ILE GLY GLN TYR GLY ARG PHE
+
+sequence for MNEI_1IV7_sasa_30.pdb:
+ ASN GLY GLN TYR GLY ARG
+
+sequence for MNEI_1IV7_sasa_31.pdb:
+ ASN GLY TYR GLY ARG THR SER
+
+sequence for MNEI_1IV7_sasa_33.pdb:
+ ASN ARG THR PHE ASN SER ASP
+
+sequence for MNEI_1IV7_sasa_34.pdb:
+ LYS ASN THR PHE ASN LYS TYR SER ASP
+
+sequence for MNEI_1IV7_sasa_35.pdb:
+ GLN THR PHE ASN LYS TYR SER ASP
+
+sequence for MNEI_1IV7_sasa_36.pdb:
+ ILE GLN PHE ASN LYS ILE TYR
+
+sequence for MNEI_1IV7_sasa_38.pdb:
+ ILE LYS ILE ARG PRO TYR TYR PRO
+
+sequence for MNEI_1IV7_sasa_39.pdb:
+ ILE ASP ILE ILE ARG PRO TYR PRO
+
+sequence for MNEI_1IV7_sasa_40.pdb:
+ ILE ILE ASP ILE ILE ARG PRO MET TYR PRO
+
+sequence for MNEI_1IV7_sasa_42.pdb:
+ TRP GLU ILE ILE PRO MET LYS LYS GLN
+
+sequence for MNEI_1IV7_sasa_43.pdb:
+ TRP GLU ILE ILE PHE MET LYS LYS THR TYR GLU GLN
+
+sequence for MNEI_1IV7_sasa_44.pdb:
+ GLY GLU TRP GLU MET LYS LYS THR ILE TYR GLU GLN
+
+sequence for MNEI_1IV7_sasa_45.pdb:
+ GLY GLU TRP GLU LYS LYS THR ILE TYR ILE LYS TYR GLU
+
+sequence for MNEI_1IV7_sasa_46.pdb:
+ GLY GLU LYS THR ILE TYR GLU GLU ILE LYS TYR GLU
+
+sequence for MNEI_1IV7_sasa_47.pdb:
+ GLY THR ILE TYR GLU ASN GLU GLY PHE ARG GLU ILE LYS
+
+sequence for MNEI_1IV7_sasa_48.pdb:
+ ILE TYR GLU ASN GLU PHE GLU ILE LYS
+
+sequence for MNEI_1IV7_sasa_49.pdb:
+ TYR GLU ASN GLU GLY PHE GLU LYS
+
+sequence for MNEI_1IV7_sasa_50.pdb:
+ GLY TYR GLU ASN GLU GLY PHE
+
+sequence for MNEI_1IV7_sasa_51.pdb:
+ TYR ASN GLU GLY PHE ARG
+
+sequence for MNEI_1IV7_sasa_52.pdb:
+ TYR GLU ASN GLU GLY PHE ARG GLU
+
+sequence for MNEI_1IV7_sasa_53.pdb:
+ TYR GLU ASN GLY PHE ARG GLU ILE
+
+sequence for MNEI_1IV7_sasa_54.pdb:
+ TYR GLU ASN PHE ARG GLU ILE LYS TYR
+
+sequence for MNEI_1IV7_sasa_55.pdb:
+ THR ILE TYR GLU ASN ARG GLU ILE LYS TYR TYR LYS
+
+sequence for MNEI_1IV7_sasa_56.pdb:
+ THR ILE TYR GLU GLU ILE LYS TYR ASP TYR LYS
+
+sequence for MNEI_1IV7_sasa_58.pdb:
+ LYS LYS THR ILE ILE LYS TYR GLU SER GLU ASP TYR
+
+sequence for MNEI_1IV7_sasa_59.pdb:
+ TRP LYS LYS THR ILE TYR GLU GLN SER GLU LEU
+
+sequence for MNEI_1IV7_sasa_61.pdb:
+ TRP MET LYS LYS GLU GLN TYR ARG
+
+sequence for MNEI_1IV7_sasa_63.pdb:
+ ILE ARG PRO GLN TYR TYR ARG VAL PRO
+
+sequence for MNEI_1IV7_sasa_65.pdb:
+ PHE ASN LYS ILE TYR TYR SER ASP LYS PHE
+
+sequence for MNEI_1IV7_sasa_67.pdb:
+ THR PHE ASN TYR SER ASP LYS
+
+sequence for MNEI_1IV7_sasa_68.pdb:
+ THR ASN TYR SER ASP LYS
+
+sequence for MNEI_1IV7_sasa_69.pdb:
+ ASN TYR SER ASP LYS PRO VAL
+
+sequence for MNEI_1IV7_sasa_72.pdb:
+ GLN TYR ARG ARG PHE ASN GLY VAL
+
+sequence for MNEI_1IV7_sasa_76.pdb:
+ PHE ILE TYR GLU SER GLU ASP ARG LYS LEU LEU
+
+sequence for MNEI_1IV7_sasa_77.pdb:
+ ILE TYR GLU SER GLU ASP TYR THR ARG GLY ARG LYS
+
+sequence for MNEI_1IV7_sasa_78.pdb:
+ ILE LYS TYR SER GLU ASP TYR LYS THR ARG GLY ARG LYS
+
+sequence for MNEI_1IV7_sasa_79.pdb:
+ ILE LYS TYR GLU ASP TYR LYS THR ARG GLY
+
+sequence for MNEI_1IV7_sasa_80.pdb:
+ ASP TYR LYS THR ARG GLY
+
+sequence for MNEI_1IV7_sasa_81.pdb:
+ GLU ASP TYR LYS THR ARG GLY
+
+sequence for MNEI_1IV7_sasa_82.pdb:
+ GLU ASP TYR LYS THR ARG GLY ARG
+
+sequence for MNEI_1IV7_sasa_83.pdb:
+ PHE GLU ASP THR ARG GLY ARG LYS
+
+sequence for MNEI_1IV7_sasa_84.pdb:
+ PHE GLU SER GLU ASP ARG GLY ARG LYS LEU
+
+sequence for MNEI_1IV7_sasa_85.pdb:
+ PHE GLU SER GLU ARG LYS LEU LEU
+
+sequence for MNEI_1IV7_sasa_86.pdb:
+ PHE GLU ILE SER ARG LYS LEU LEU ARG PHE
+
+sequence for MNEI_1IV7_sasa_87.pdb:
+ GLU SER LYS LEU LEU ARG PHE
+
+sequence for MNEI_1IV7_sasa_88.pdb:
+ ARG LEU LEU ARG PHE ASN
+
+sequence for MNEI_1IV7_sasa_89.pdb:
+ ILE GLN TYR ARG LEU LEU ARG PHE ASN GLY
+
+sequence for MNEI_1IV7_sasa_90.pdb:
+ TYR ARG ARG PHE ASN GLY PRO VAL
+
+sequence for MNEI_1IV7_sasa_91.pdb:
+ TYR LYS ARG PHE ASN GLY PRO VAL PRO
+
+sequence for MNEI_1IV7_sasa_92.pdb:
+ TYR LYS ARG ASN GLY PRO VAL PRO
+
+sequence for MNEI_1IV7_sasa_93.pdb:
+ TYR ARG ASN GLY PRO VAL PRO PRO
+
+sequence for MNEI_1IV7_sasa_94.pdb:
+ TYR PRO VAL PRO PRO PRO
+
+sequence for MNEI_1IV7_sasa_95.pdb:
+ ILE TYR TYR VAL PRO PRO PRO
+
+sequence for MNEI_1IV7_sasa_96.pdb:
+ ILE PRO TYR VAL PRO PRO PRO
+

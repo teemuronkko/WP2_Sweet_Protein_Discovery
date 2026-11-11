@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___OneKP_scaffold-JETM-2008173-Bauhinia_tomentosa": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TTFTMVNKCDYTVWPGILSNAGVSPLPTTGFVLQTGESKTIDAPTSWGGRFWGRTNCTQDSTGKFSCVTGDCGSGKLECSGNGATPPATLAEFTLDGAGGLDFFDVSLVDGYNVPMLVVPQGGSGPNCTSTGCVGDLNGACPSELKVMSVDSKQGVACKSACEAFGTPQYCCSGAYGTPDTCKPSSYSQIFKNACPRAYSYAYDDKTSTFTCASADYTITFCPSP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___OneKP_scaffold-JETM-2008173-Bauhinia_tomentosa/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

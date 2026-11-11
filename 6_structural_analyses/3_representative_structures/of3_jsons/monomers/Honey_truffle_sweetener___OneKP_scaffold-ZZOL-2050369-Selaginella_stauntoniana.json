@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Honey_truffle_sweetener___OneKP_scaffold-ZZOL-2050369-Selaginella_stauntoniana": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "KGENNYFALVIYYTEGPLTLYVANSWLGYGKWVRGKNDFTEIGSPNGLTMTAWGEYHITASGRSWSPTGTEGSFDVYSSDGQRVLYVYWDVVYAGMGEWKRTVFDSRFQATATRIGESHLDVTLVISYV",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Honey_truffle_sweetener___OneKP_scaffold-ZZOL-2050369-Selaginella_stauntoniana/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

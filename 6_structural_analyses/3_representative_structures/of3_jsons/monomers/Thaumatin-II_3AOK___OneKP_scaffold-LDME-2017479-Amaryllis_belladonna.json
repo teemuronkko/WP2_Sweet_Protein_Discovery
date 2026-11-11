@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___OneKP_scaffold-LDME-2017479-Amaryllis_belladonna": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TVWPGSLTNAGNPQLNPTGFELQTGQTRSVQAPTGWSGRFWARTGCNFDPTGHGSCSTGDCGSSQIECDGAGANPPATLAEFTLGEPASTKDFYDVSLVDGYNLPMVVEPSSSQCGSTGCLIDLNRRCPPRAEDGEACRSACEAFGKPEFCCSGVYANPNTCRPTFYSELFKSACPKSYSYAYDDATSTFTCNGGDYTITFCPDS",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___OneKP_scaffold-LDME-2017479-Amaryllis_belladonna/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

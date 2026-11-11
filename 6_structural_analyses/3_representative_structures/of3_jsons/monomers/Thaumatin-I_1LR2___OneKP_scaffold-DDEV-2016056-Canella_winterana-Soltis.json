@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-DDEV-2016056-Canella_winterana-Soltis": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TTIALYNKCTHTVWPGIQPSAGKPIIARGGFRLPPSKAYSLRVPTGWSGRIWGRQECFFNAAGRGRCATGDCGGSLYCNGMGGAPPATLAEITLGEKDFYDVSLVDGYNMAISMTPFRGSGKCSYAGCVSDLNRMCPAGLQVRSRDNRVLACKSACSAFNSPKYCCTGIYGNPQSCKPTAYSRIFKTACPKAYSYAYDDPTSIVTCSGGSYLITFCPH",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-DDEV-2016056-Canella_winterana-Soltis/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

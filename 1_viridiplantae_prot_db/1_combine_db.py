@@ -2,114 +2,13 @@ from Bio import SeqIO
 import json
 import os
 import gzip
-import hashlib
+import sys
 
-def gzip_file(input_path: str, gzip_path: str = None) -> str:
-    if not os.path.exists(input_path):
-        raise FileNotFoundError(f"Input file not found: {input_path}")
-
-    if gzip_path is None:
-        gzip_path = input_path + ".gz"
-
-    try:
-        with open(input_path, 'rb') as f_in:
-            with gzip.open(gzip_path, 'wb') as f_out:
-                f_out.writelines(f_in)
-        return gzip_path
-    except Exception as e:
-        if os.path.exists(gzip_path):
-            os.remove(gzip_path)
-        raise
-
-def md5(file_path: str, block_size=2**20) -> str:
-    if not os.path.exists(file_path):
-        raise FileNotFoundError(f"Input file not found: {file_path}")
-
-    hasher = hashlib.md5()
-    try:
-        with open(file_path, 'rb') as f:
-            while True:
-                chunk = f.read(block_size)
-                if not chunk:
-                    break
-                hasher.update(chunk)
-        md5 = hasher.hexdigest()
-    
-    except Exception as e:
-        raise e
-
-    md5_file_path = file_path + ".md5"
-    try:
-        with open(md5_file_path, 'w') as md5_file:
-            md5_file.write(md5)
-    except Exception as e:
-        raise e
-
-    return md5_file_path
-
-def read_sequences(fasta_path, db_id: str = None, max_seq_length: int = None):
-    """
-    Reads a fasta file containing protein sequences.
-    
-    Args:
-        fasta_path (str): Path to the fasta file.
-        db_id (str): Optional database identifier to prepend to sequence IDs.
-        max_seq_length (int): Optional maximum sequence length to filter sequences.
-
-    Returns:
-        tuple: Tuple of 'ID' and 'Sequence
-    """
-    sequences = []
-    for record in SeqIO.parse(fasta_path, "fasta"):
-        if len(record.id) == 0 or len(record.seq) == 0:
-            print(f"Skipping entry with empty ID or sequence: ID='{record.id}', Sequence length={len(record.seq)}")
-            continue
-        elif (max_seq_length is not None) and (len(record.seq) > max_seq_length):
-            continue
-        if db_id is not None:
-            seq_id = f"{db_id}_{record.id}"
-        else:
-            seq_id = record.id
-
-        sequences.append((seq_id, str(record.seq)))
-    return sequences
-
-def split_seq(seq, accession, window, step):
-    """
-    Splits an input sequence into overlapping fragments given a specified window size and step size.
-
-    Args:
-        seq (str): The input sequence to be split.
-        accession (str): The accession identifier for the sequence.
-        window (int): The size of each fragment window.
-        step (int): The step size for overlapping fragments.
-
-    Returns:
-        dict: A dictionary where keys are fragment identifiers (accession_start-end) and values are the corresponding sequence fragments.
-    """
-
-    # Empty dictionary to hold fragments
-    fragments = {}
-
-    # If the sequence is shorter than or equal to the window size, return it as a single fragment
-    if len(seq) <= window:
-        return {accession: seq}
-    else:
-        # Loop through the sequence to create overlapping fragments
-        for i in range(0, len(seq), step):
-
-            # Determine the end index of the fragment
-            if i + window > len(seq):
-                end = len(seq)
-            else:
-                end = i + window
-
-            # Extract the fragment and add it to the dictionary if it is longer than window - step
-            frag = seq[i:end]
-            if len(frag) > window-step:
-                accession_frag = f"{accession}_frag_{i+1}-{i+len(frag)}"
-                fragments[accession_frag] = frag
-    return fragments
+# Custom imports from utils.py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_path = script_dir.split("WP2_Sweet_Protein_Discovery")[0] + "/WP2_Sweet_Protein_Discovery"
+sys.path.append(repo_path)
+from utils import gzip_file, md5, read_sequence_tuples
 
 def combine_dbs(
         uniprot_viridiplantae_path: str,
@@ -118,8 +17,6 @@ def combine_dbs(
         out_db_path: str,
         json_file: str,
         max_seq_length: int,
-        window: int,
-        step: int,
         deduplicate: bool = False,
         compress: bool = False):
     """
@@ -133,8 +30,6 @@ def combine_dbs(
         out_db_path (str): Path to output combined fasta file.
         json_file (str): Path to output JSON file mapping sequences to their IDs.
         max_seq_length (int): Maximum sequence length.
-        window (int): Window size for overlapping fragments when splitting long sequences.
-        step (int): Step size for overlapping fragments when splitting long sequences.
         deduplicate (bool): Whether to deduplicate sequences.
         compress (bool): Whether the fasta file should be compressed.
 
@@ -163,12 +58,12 @@ def combine_dbs(
 
     # Read UniProt Viridiplantae fasta file into tuplesgrep
     print("Reading UniProt Viridiplantae sequences...")
-    uniprot_tuples = read_sequences(uniprot_viridiplantae_path, db_id="UniProt", max_seq_length=max_seq_length)
+    uniprot_tuples = read_sequence_tuples(uniprot_viridiplantae_path, db_id="UniProt", max_seq_length=max_seq_length)
     print(f"Total UniProt Viridiplantae sequences read: {len(uniprot_tuples)}\n")
 
     # Read toxin UniProt fasta file
     print("Reading UniProt toxin sequences...")
-    toxin_tuples = read_sequences(toxin_uniprot_path, db_id="Toxin", max_seq_length=max_seq_length)
+    toxin_tuples = read_sequence_tuples(toxin_uniprot_path, db_id="Toxin", max_seq_length=max_seq_length)
     print(f"Total UniProt toxin sequences read: {len(toxin_tuples)}\n")
 
     # Combine the datasets
@@ -219,18 +114,10 @@ def combine_dbs(
                 if len(id_list) > 0:
                     alt_keys[accession] = id_list
 
-                # Split long sequences into overlapping fragments
-                if window is not None and step is not None:
-                    split_sequences = split_seq(sequence, accession, window=window, step=step)
-                    for frag_accession, frag_sequence in split_sequences.items():
-                        fasta_header = f">{frag_accession}\n"
-                        fasta_handle.write(fasta_header)
-                        fasta_handle.write(f"{frag_sequence}\n")
-                else:
-                    # Write fasta entry
-                    fasta_header = f">{accession}\n"
-                    fasta_handle.write(fasta_header)
-                    fasta_handle.write(f"{sequence}\n")
+                # Write fasta entry
+                fasta_header = f">{accession}\n"
+                fasta_handle.write(fasta_header)
+                fasta_handle.write(f"{sequence}\n")
 
         # Free up memory and remove seq_map
         del seq_map
@@ -300,28 +187,21 @@ def combine_dbs(
 
 if __name__ == "__main__":
 
-    # Get directory of the script
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_name = "WP2_SweetProteinDiscovery"
-    repo_dir = script_dir.split(repo_name)[0] + repo_name
-
     # Paths to OneKP and UniProt Viridiplantae fasta files
-    oneKP_all_transcripts_path = f"{repo_dir}/1_viridiplantae_prot_db/1_oneKP_capstone_2019/oneKP_all_transcripts.tsv"
-    uniprot_viridiplantae_path = f"{repo_dir}/1_viridiplantae_prot_db/2_uniprot_data/uniprot_viridiplantae_all.fasta"
-    uniprot_toxins_path = f"{repo_dir}/1_viridiplantae_prot_db/2_uniprot_data/uniprot_toxins.fasta"
+    oneKP_all_transcripts_path = f"{repo_path}/1_viridiplantae_prot_db/1_oneKP_capstone_2019/oneKP_all_transcripts.tsv"
+    uniprot_viridiplantae_path = f"{repo_path}/1_viridiplantae_prot_db/2_uniprot_data/uniprot_viridiplantae_all.fasta"
+    uniprot_toxins_path = f"{repo_path}/1_viridiplantae_prot_db/2_uniprot_data/uniprot_toxins.fasta"
 
     # Do not deduplicate sequences
     deduplicate = False
 
     # Define output filenames
-    os.makedirs(f"{repo_dir}/1_viridiplantae_prot_db/", exist_ok=True)
-    out_db_path = f"{repo_dir}/1_viridiplantae_prot_db/viridiplantae_prot_db.fasta"
-    json_file = f"{repo_dir}/1_viridiplantae_prot_db/duplicate_sequences.json"
+    os.makedirs(f"{repo_path}/1_viridiplantae_prot_db/", exist_ok=True)
+    out_db_path = f"{repo_path}/1_viridiplantae_prot_db/viridiplantae_prot_db.fasta"
+    json_file = f"{repo_path}/1_viridiplantae_prot_db/duplicate_sequences.json"
 
     # Set maximum sequence length
     max_sequence_length = 1000
-    window = None
-    step = None
 
     print("Combining UniProt Viridiplantae and OneKP transcript sequences into a single fasta database...")
     print(f"UniProt Viridiplantae path: {uniprot_viridiplantae_path}")
@@ -336,8 +216,6 @@ if __name__ == "__main__":
         out_db_path,
         json_file,
         max_seq_length=max_sequence_length,
-        window=window,
-        step=step,
         deduplicate=deduplicate,
         compress = False
     )

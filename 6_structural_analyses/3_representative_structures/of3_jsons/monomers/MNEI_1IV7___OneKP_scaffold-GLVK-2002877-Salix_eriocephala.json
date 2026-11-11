@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "MNEI_1IV7___OneKP_scaffold-GLVK-2002877-Salix_eriocephala": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GGRTKLSDVKTNKEVQELGRFSVKEFNNNRRKYEKGGEVGELLFSEVVEAQTQVVSGVKYYLRIMAATQKKEKRMFDSVLVVKPWLRSKELLTFEPSTEPRV",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/MNEI_1IV7___OneKP_scaffold-GLVK-2002877-Salix_eriocephala/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

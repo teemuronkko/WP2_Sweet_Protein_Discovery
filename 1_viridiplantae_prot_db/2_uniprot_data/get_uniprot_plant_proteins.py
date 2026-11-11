@@ -24,7 +24,6 @@ def get_batch(batch_url):
         batch_url = get_next_link(response.headers)
 
 def fetch_uniprot_plant_proteins(url, output_file, columns):
-    # Open file if it doesnt exist and write header
     if not os.path.exists(output_file):
         with open(output_file, "w") as f:
             f.write("\t".join(columns) + "\n")
@@ -34,7 +33,6 @@ def fetch_uniprot_plant_proteins(url, output_file, columns):
         for line in batch.text.splitlines()[1:]:
             results.append(line.split("\t"))
 
-        # Write results in the file after each batch
         with open(output_file, "a") as f:
             for entry in results:
                 f.write("\t".join(entry) + "\n")

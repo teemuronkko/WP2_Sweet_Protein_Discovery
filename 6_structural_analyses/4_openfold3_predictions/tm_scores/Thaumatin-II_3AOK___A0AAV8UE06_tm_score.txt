@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_Sweet_Protein_Discovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Thaumatin-II_3AOK.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Documents/Git_projects/WP2_Sweet_Protein_Discovery/6_structural_analyses/4_openfold3_predictions/monomers//Thaumatin-II_3AOK/Thaumatin-II_3AOK___A0AAV8UE06/Thaumatin-II_3AOK___A0AAV8UE06_seed_42_sample_1_model.pdb
+Length of Chain_1: 207 residues
+Length of Chain_2: 214 residues
+
+Aligned length= 197, RMSD=   1.63, Seq_ID=n_identical/n_aligned= 0.360
+TM-score= 0.88807 (if normalized by length of Chain_1, i.e., LN=207, d0=5.35)
+TM-score= 0.86053 (if normalized by length of Chain_2, i.e., LN=214, d0=5.44)
+TM-score= 0.88807 (if normalized by user-specified LN=207.00 and d0=5.35)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+ATFEIVNRCSYTVWAAASKGD--AALDAGGRQLNSGESWTINVEPGTKGGKIWARTDCYFDDSGRGICRTGDCGGLLQC-KRFGRPPTTLAEFSLNQ--YGKDYIDISNIKGFNVPMDFSPTTRG--CRGVRCAADIVGQCPAKLKAPG----GGCNDACTVFQTSEYCCTT--G---KCGPTEYSRFFKRLCPDAFSYVLDKP-TTVTCPGSSNYRVTFCPTA
+:::::::::::::::::::.:  .:::::::::::::::::::::::: :::::::::::::::::::::::::::::: :::::::::::::::::  ::::::::::::::::::::::::::  ::::::::::::::::::::::    :::::::::::::::::::  :   :::::::::::::::::::::::::: ::::::..::         
+EQLIIVNNCNESIWPGLLGSAGGPTPKDGGFHLASGEEVVIDLPQKWS-GRIWGRQGCCFDANGKGSCDTGDCSGFLHCQGIGGVPPATVVEMTLGSSSSPLHFYDVSLVDGFNLPVSMAPVGGGIGCGVASCEFDLNICCPSALEVKKDGKIVGCKSACLAMQSAKYCCTGEYANPNTCKPTVFANLFKAICPKAYSYAFDDSSSLNKCRASRC---------
+
+Total CPU time is  0.03 seconds

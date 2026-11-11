@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Miraculin.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_alphafold3_models/OneKP/models/onekp_scaffold-dgnp-2038839-cannabis_sativa-core/onekp_scaffold-dgnp-2038839-cannabis_sativa-core_model.pdb
+Length of Chain_1: 191 residues
+Length of Chain_2: 474 residues
+
+Aligned length= 133, RMSD=   3.36, Seq_ID=n_identical/n_aligned= 0.098
+TM-score= 0.55727 (if normalized by length of Chain_1, i.e., LN=191, d0=5.15)
+TM-score= 0.24716 (if normalized by length of Chain_2, i.e., LN=474, d0=7.77)
+TM-score= 0.55727 (if normalized by user-specified LN=191.00 and d0=5.15)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+DS------------------------APNPVLDIDGEKLRTGTNYYIVPVLRDHGGGLTVSATTPNGTFV-CPPRVVQTRKEVDHDRPLAFFPENPKEDVVRVSTDLNINFSAFMPCRWTSSTVWRLDKYDESTGQYFVTIGGVKGNPGPETISSWFKIEEFCGSG-FYKLVFCPTVCGSCKVKCGDVGIYIDQKGRRRLAL-SD--------KPFAFEFNKTVYF------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                          ..::.      :::::::::::: : .::::::::.         .::::::::::....::::::::.      :: : :::::: :       ::::::::...   .::::::::::     :::::::::::.::: :::::::         :::::::::    :::::: ::        :::::::::.                                                                                                                                                                                                                                                                                                                     
+--LPLKAVNLGNWLVIEGWMNRSLFDNIPNK------DLLDGTKVQFKS-T-KLQKYLCSEN--------GGGTTVVANRDNASGWETFRLWRNN------ES-S-FNFRVF-N-------KQFVGLVNQGQ---GNTLVAVSNDP-----GDSETFRIIRNEDDPNRVRIRTA---------NGLFLQAQS----DSPVTADYERSSWDDNDPSVFEMTIVS---GIQGEYQISNGYGPERASQVLQDHRSTYITEDDFRFMSSNGLNAVRVPVGWWIAHDPTPPHPFVSGSLQALDNAFQWAQNYGMKVIIDLHAVQGSQNGNEHSGTRDGFQEWGDAYMQDTVSVIDFLAARYGNKTNLAAIGLMNEPMSPGVTLDTLIRYYQLGYNAVRKYTSSAYVILSNRLGPADSKELLSFAGGLANVAIDVHYYNLYSDSFRSMNVQQNIDFVYNQRSSDLSAVTTPNGPLSFVGEWCGEIAMRGASKEVYQRFGKAQLDVYGRATFGWAYWAYKCDAKYWSLRWMIENNYIKL
+
+Total CPU time is  0.07 seconds

@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Honey_truffle_sweetener___OneKP_scaffold-XKPS-2005391-Ximenia_americana": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GNGISCLAVFYNATGGTITHVTDHDFHGHIGSSPYPTRLENGQWGAFLHVHTSGWAAGSSAAAVYRGQNSDGEGRDWLMSWSIPFSGSNHTYAEVRASGHYTSGVWDIISDYLSDSGHKSEDTWGKCFSRTTIGEASSPLFSATFTLEN",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Honey_truffle_sweetener___OneKP_scaffold-XKPS-2005391-Ximenia_americana/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

@@ -1,4 +1,3 @@
-# Script to split sequence databases to smaller batches for ProstT5 processing
 import os
 from Bio import SeqIO   
 
@@ -35,19 +34,19 @@ def split_fasta_to_batches(input_fasta, output_dir, batch_size = 500000):
 
 if __name__ == "__main__":
 
-    # Get directory of the script
+    # Script to split sequence databases to smaller batches for ProstT5 processing
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_name = "WP2_SweetProteinDiscovery"
-    repo_dir = script_dir.split(repo_name)[0] + repo_name
+    repo_name = "WP2_Sweet_Protein_Discovery"
+    repo_path = script_dir.split(repo_name)[0] + repo_name
     batch_size = 500000
 
     # Paths to OneKP and UniProt Viridiplantae fasta files
-    uniprot_viridiplantae_path = f"{repo_dir}/1_viridiplantae_prot_db/viridiplantae_prot_db_UniProt.fasta"
-    oneKP_all_transcripts_path = f"{repo_dir}/1_viridiplantae_prot_db/viridiplantae_prot_db_OneKP.fasta"
+    uniprot_viridiplantae_path = f"{repo_path}/1_viridiplantae_prot_db/viridiplantae_prot_db_UniProt.fasta"
+    oneKP_all_transcripts_path = f"{repo_path}/1_viridiplantae_prot_db/viridiplantae_prot_db_OneKP.fasta"
 
     # Output directories for batches
-    uniprot_output_dir = f"{repo_dir}/1_viridiplantae_prot_db/3_database_batches/UniProt_batches/"
-    oneKP_output_dir = f"{repo_dir}/1_viridiplantae_prot_db/3_database_batches/OneKP_batches/"
+    uniprot_output_dir = f"{repo_path}/1_viridiplantae_prot_db/3_database_batches/UniProt_batches/"
+    oneKP_output_dir = f"{repo_path}/1_viridiplantae_prot_db/3_database_batches/OneKP_batches/"
 
     # Split the fasta files into batches
     print("Splitting UniProt Viridiplantae sequences into batches...")

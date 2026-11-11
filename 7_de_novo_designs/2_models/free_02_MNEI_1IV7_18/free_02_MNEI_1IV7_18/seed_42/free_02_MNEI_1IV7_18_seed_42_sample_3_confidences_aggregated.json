@@ -1,0 +1,14 @@
+{
+    "avg_plddt": 81.33859252929688,
+    "gpde": 0.7692326903343201,
+    "iptm": 0.0,
+    "ptm": 0.7157734036445618,
+    "disorder": 0.0,
+    "has_clash": 0.0,
+    "sample_ranking_score": 0.14315468072891235,
+    "chain_ptm": {
+        "A": 0.7157734036445618
+    },
+    "chain_pair_iptm": {},
+    "bespoke_iptm": {}
+}

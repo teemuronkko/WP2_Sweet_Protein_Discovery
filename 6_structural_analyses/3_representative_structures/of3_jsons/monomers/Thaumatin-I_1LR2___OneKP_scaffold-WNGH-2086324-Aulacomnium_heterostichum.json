@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-WNGH-2086324-Aulacomnium_heterostichum": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TFNFVNSCKFTVWVGLQPNGGLPLLVEGGFQMLAGAQHAVTAPAAWGGRFWGRTGCKFDGAGKGTCQTGDCGGVLKCNGAGGNPPASLAEITLNGANGDDFYDISLVDGYNLPIAMQPVGGSGTCGAPGCTSNLNNNCPGALQLLAAGAVVGCRSACAAFGAPQYCCTGAYGAPTTCPPTQYSLPFKAACPTAYSYAYDDATSTFTCKAQTYSITFCPAG",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-WNGH-2086324-Aulacomnium_heterostichum/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+mkdir: cannot create directory '/home/pqh443/ucph-erda-home': File exists
+2026-05-06 12:37:04 | INFO     - Using query-id and subject-ids from JSON file: ./surfdiff_denovo.json
+2026-05-06 12:37:04 | INFO     - Running SurfDiff 🏄...
+2026-05-06 12:37:04 | INFO     - Query PDB: relaxed_designs/pdb_dir/MNEI_1IV7.pdb (MNEI_1IV7)
+2026-05-06 12:37:04 | INFO     - Number of subjects: 62
+2026-05-06 12:37:04 | INFO     - Using 64 threads for processing.
+2026-05-06 12:37:04 | SUCCESS  - MNEI_1IV7 ply calculated
+2026-05-06 12:37:24 | SUCCESS  - MNEI_1IV7 SASA calculated
+2026-05-06 12:37:24 | INFO     - Creating subject database
+2026-05-06 12:37:25 | SUCCESS  - subject database created
+2026-05-06 12:38:18 | SUCCESS  - MNEI_1IV7 MASTER comparison completed
+2026-05-06 12:38:18 | INFO     - Analysing comparisons...
+2026-05-06 12:38:24 | SUCCESS  - MNEI_1IV7 ply-files created
+2026-05-06 12:38:24 | SUCCESS  - MNEI_1IV7 analysis completed
+2026-05-06 12:38:24 | SUCCESS  - MNEI_1IV7 result table created
+2026-05-06 12:38:28 | SUCCESS  - MNEI_1IV7 output pdbs created
+2026-05-06 12:38:28 | INFO     - runtime: 00:01:24
+>> SurfDiff finished for ./relaxed_designs/pdb_dir/.
+
+>> Job finished at: Wed May  6 12:38:28 CEST 2026
+>> Runtime: 91 s

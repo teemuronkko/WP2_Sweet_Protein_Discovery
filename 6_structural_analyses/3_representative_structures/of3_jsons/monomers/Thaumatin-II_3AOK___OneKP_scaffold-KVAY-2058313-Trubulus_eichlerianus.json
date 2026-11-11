@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___OneKP_scaffold-KVAY-2058313-Trubulus_eichlerianus": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TSFKIVNKCRYTVWPGLLSGATSPPLPTTGFTLKPGKSVTFRAPRGWSGRIWGRSLCGVDSTGKFACVTGDCGSGKVECAGAGAKPPATLAEFTLNGADGLDFYDVSLVDGYNLPMLVVAKGGTRGGCGATGCLVDLNGACPPELRVARDRGKGSVACRSACEAFGDPRFCCSEANTPDTCPPSVYSQFFKHACPRAYSYAYDDKTSTFTCASADYMIIFCPPPY",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___OneKP_scaffold-KVAY-2058313-Trubulus_eichlerianus/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

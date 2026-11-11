@@ -25,6 +25,9 @@ __pycache__/
 *.zst
 *.zip
 
+# Old scripts directory
+_old_scripts/
+
 # Ignore large plant protein datasets
 1_viridiplantae_prot_db/2_uniprot_data/*.fasta
 1_viridiplantae_prot_db/2_uniprot_data/*.tsv
@@ -46,9 +49,8 @@ __pycache__/
 5_openfold3_models/*.tar.gz
 5_openfold3_models/fastas/
 6_structural_analyses/1_tm_scores/cropped_structures/
-6_structural_analyses/1_tm_scores/OneKP/
-6_structural_analyses/1_tm_scores/UniProt/
 6_structural_analyses/1_tm_scores/*.tsv
-6_structural_analyses/3_representative_structures/
 6_structural_analyses/tmp/
-6_structural_analyses/4_surfdiff_results/
+6_structural_analyses/5_surfdiff_results/
+6_structural_analyses/4_openfold3_predictions/complexes/
+6_structural_analyses/4_openfold3_predictions/monomers/

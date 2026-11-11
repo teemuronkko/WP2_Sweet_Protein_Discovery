@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "MNEI_1IV7___OneKP_scaffold-XMQO-2132300-Gunnera_manicata": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GGMSKVKDVKKNKQIQDLGKYSVQQYNNKQHESRKAGGSAVGSDGALRFKEVVEAETQVVAGIKYYLKIRVKTAAGVEKNYDAEVVDQPWIKSKEVLGFAP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/MNEI_1IV7___OneKP_scaffold-XMQO-2132300-Gunnera_manicata/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

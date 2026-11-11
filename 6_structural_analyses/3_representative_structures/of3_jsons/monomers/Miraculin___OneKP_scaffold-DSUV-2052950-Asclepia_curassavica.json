@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-DSUV-2052950-Asclepia_curassavica": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GKEQEAVHDIKGRRLRVDQPYGILPADPSTGLGFNMEVIGNKTCPFDVIQEAKGFYEIPLQLYPVNSTKGDIIRISTDLNIFFWNTYTSCLAEYSNFWKVDKYNPSAGKYFITTGGEKGNPGLKTISNWFKIEKSGDFYKFVYCPSVCKTCKVICKDIGIYVEDGKRRAALSDVPFKFNFNK",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-DSUV-2052950-Asclepia_curassavica/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

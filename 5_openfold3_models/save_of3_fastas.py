@@ -6,13 +6,13 @@ if __name__ == "__main__":
 
     # Get directory of the script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_name = "WP2_SweetProteinDiscovery"
-    repo_dir = script_dir.split(repo_name)[0] + repo_name
-    output_dir = f"{repo_dir}/5_openfold3_models/fastas/onekp_hits/"
+    repo_name = "WP2_Sweet_Protein_Discovery"
+    repo_path = script_dir.split(repo_name)[0] + repo_name
+    output_dir = f"{repo_path}/5_openfold3_models/fastas/onekp_hits/"
     os.makedirs(output_dir, exist_ok = True)
 
     # Read OneKP results
-    onekp_results_path = f"{repo_dir}/3_foldseek_search/foldseek_OneKP_search.tsv"
+    onekp_results_path = f"{repo_path}/3_foldseek_search/foldseek_OneKP_search.tsv"
     onekp_df = pd.read_csv(onekp_results_path, sep = "\t", header = 0)
     onekp_df = onekp_df[["target", "tseq"]].drop_duplicates()
 

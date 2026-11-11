@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-TOXE-2059469-Welwitschia_mirabilis": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TVFTLENHCGETIWPGILTGGGGAPVAGGGLSLPAGSSSQVTVPGSWSGRFWGRTGCNFDGSGAGTCSTGDCGQGLQCGSAGGAPPVTLAEFTVGGDKDFYDVSLVDGYNVPVGISVTGGTGDCKSVGCVADLRKSCPAALTSVDSHGTVVACKSACEAFGEPHYCCTGAFSTPQTCSPNEYSETFKAACPSAYSYAYDDATSTFTCSSPASYTVTFCP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-TOXE-2059469-Welwitschia_mirabilis/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

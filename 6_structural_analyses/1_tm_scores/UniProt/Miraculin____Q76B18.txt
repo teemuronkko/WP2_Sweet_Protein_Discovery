@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Miraculin.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/4_afdb_structures/uniprot_hits_afdb_structures/AF-Q76B18-F1-model_v6.pdb
+Length of Chain_1: 191 residues
+Length of Chain_2: 217 residues
+
+Aligned length= 170, RMSD=   2.63, Seq_ID=n_identical/n_aligned= 0.324
+TM-score= 0.77832 (if normalized by length of Chain_1, i.e., LN=191, d0=5.15)
+TM-score= 0.69193 (if normalized by length of Chain_2, i.e., LN=217, d0=5.48)
+TM-score= 0.77832 (if normalized by user-specified LN=191.00 and d0=5.15)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+---------------------DSAPNPVLDIDGEKLRTGTNYYIVPVLRDHGGGLTVSATTPNGTFVCPPRVVQTRKEVDHDRPLAFFPENPKEDVVRVSTDLNINFSAFMP---CRWTSSTVWRLDKYDESTGQYFVTIGGVKGNPGPE--TISSWFKIEEFCGS--GFYKLVFCPTVCGSCKV--KCGDVGIYIDQ-KGRRRLALS-DKPFAFEFNKTVYF---------------
+                     ..::::::::::::::::::::::::::: ::::::: :::. :::. :::::::::::.:::::::::: ::::::::::::::::::.:   ::.: :::::::::: :: :::::::..         ..:.::::::::::  :::::::::  :  ::.  .:::::::::: ::::::::: :::::::::::.                 
+MKSTIFFALFLFCAFTTSYLPSAIADFVLDNEGNPLENGGTYYILSDITA-FGGIRAA-PTGN-ERCP-LTVVQSRNELDKGIETIISSPY-RIRFIAEGHPLSLKFDSFAVIMLCVGI-PTEWSVVEDL-PE-GPAVKIGEN-------KDAMDGWFRLERVSDDEFNNYKLVFCP--Q--QAEDDKCGDIGISIDHDDGTRRLVVSKNKPLVVQFQKLD--KESLAKKNHGLSRSE
+
+Total CPU time is  0.03 seconds

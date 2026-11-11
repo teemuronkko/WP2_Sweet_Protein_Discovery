@@ -1,6 +1,12 @@
 import pandas as pd
-from Bio import SeqIO
 import os
+import sys
+
+# Custom imports from utils.py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_path = script_dir.split("WP2_Sweet_Protein_Discovery")[0] + "/WP2_Sweet_Protein_Discovery"
+sys.path.append(repo_path)
+from utils import read_sequences
 
 def read_uniprot_ids(file_path):
     """
@@ -32,27 +38,10 @@ def read_uniprot_ids_from_fasta(file_path):
                 ids.add(id)
     return ids
 
-def read_sequences(fasta_path):
-    """
-    Reads a fasta file containing protein sequences.
-    
-    Args:
-        fasta_path (str): Path to the fasta file.
-
-    Returns:
-        pd.DataFrame: DataFrame with columns 'ID', 'Sequence'.
-    """
-    sequences = []
-    for record in SeqIO.parse(fasta_path, "fasta"):
-        sequences.append({"ID": record.id, "Sequence": str(record.seq)})
-
-    return pd.DataFrame(sequences)
-
 
 if __name__ == "__main__":
 
     # Get script directory and build output file path
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     output_file = f"{script_dir}/uniprot_viridiplantae.tsv"
 
     # Read all UniProt fasta IDs and sequences from varsplic fasta file

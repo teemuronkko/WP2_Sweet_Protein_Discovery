@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___A0A426YKS9": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "ASFAFVNNCQYAVWPGVLSNAGDAALSTTGFALEAGQSRSLEAPAVWSGRFWGRTLCATDSTGNFSCGTGDCGSGKVECSGRGAAPPATLAEFTLGGGGNGTDYYDVSLVDGYNLAMLVVPQGGSGGGGCGSAGCVADLNGVCPSDLQVVLRAGTGASESVACKSACDAFGSPQYCCSGAYSNPNTCEPSSYSQFFKNACPKAYSYAFDDATSIFTCSSAGYRITFCPGT",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___A0A426YKS9/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

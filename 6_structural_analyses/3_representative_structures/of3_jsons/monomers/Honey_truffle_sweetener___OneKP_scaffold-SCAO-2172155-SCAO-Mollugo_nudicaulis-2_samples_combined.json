@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Honey_truffle_sweetener___OneKP_scaffold-SCAO-2172155-SCAO-Mollugo_nudicaulis-2_samples_combined": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GNGVSALFVFYNATGSTLNIVTSHDWHGHMYKVPPPAEVQNGQWGAFLHVHSSGAAVGSSGAVVYRSDVYSEDKDWFLGWEVPWGPYSNKVYTEIREKDHWPNVGSWDYMYNVRIQNSGMHSEDKQYGRYWSVMQIGEGTSPILRSTLKL",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Honey_truffle_sweetener___OneKP_scaffold-SCAO-2172155-SCAO-Mollugo_nudicaulis-2_samples_combined/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

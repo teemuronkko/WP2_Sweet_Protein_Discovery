@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Thaumatin-II_3AOK.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_openfold3_models/OneKP/OneKP_scaffold-AHRN-2001311-Cuscuta_pentagonia/OneKP_scaffold-AHRN-2001311-Cuscuta_pentagonia.temp/seed_42/OneKP_scaffold-AHRN-2001311-Cuscuta_pentagonia.temp_seed_42_sample_3_model.pdb
+Length of Chain_1: 207 residues
+Length of Chain_2: 136 residues
+
+Aligned length= 135, RMSD=   1.00, Seq_ID=n_identical/n_aligned= 0.519
+TM-score= 0.63253 (if normalized by length of Chain_1, i.e., LN=207, d0=5.35)
+TM-score= 0.94975 (if normalized by length of Chain_2, i.e., LN=136, d0=4.33)
+TM-score= 0.63253 (if normalized by user-specified LN=207.00 and d0=5.35)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+ATFEIVNRCSYTVWAAASKGDAALDAGGRQLNSGESWTINVEPGTKGGKIWARTDCYFDDSGRGICRTGDCGGLLQCKRFGRPPTTLAEFSLNQY-GKDYIDISNIKGFNVPMDFSPTTRGCRGVRCAADIVGQCPAKLKAPGGGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA
+    :::::::::::::::    :: ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: ::::::::::::::::::::       :::                                                     ::::::::::::::::::::::::::   
+----IKNNCPYTVWAASLP----TG-GGQQINTGGTWSLNVAPGTTSGRIWGRTGCNFNGAGNGHCQTGDCGNVLACRLSGAPPTTLAEFSLNQPNNLDFYDLSVIDGFNVPMLAD-------KCS-----------------------------------------------------DAYLFPSDNSKTHSCRSGTNYNVVFC---
+
+Total CPU time is  0.02 seconds

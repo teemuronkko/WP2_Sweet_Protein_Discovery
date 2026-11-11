@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_Sweet_Protein_Discovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Brazzein_4HE7.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Documents/Git_projects/WP2_Sweet_Protein_Discovery/6_structural_analyses/4_openfold3_predictions/monomers//Brazzein_4HE7/Brazzein_4HE7___A0A0D3BPK9/Brazzein_4HE7___A0A0D3BPK9_seed_42_sample_5_model.pdb
+Length of Chain_1: 54 residues
+Length of Chain_2: 62 residues
+
+Aligned length= 53, RMSD=   2.15, Seq_ID=n_identical/n_aligned= 0.302
+TM-score= 0.74413 (if normalized by length of Chain_1, i.e., LN=54, d0=2.41)
+TM-score= 0.66753 (if normalized by length of Chain_2, i.e., LN=62, d0=2.67)
+TM-score= 0.74413 (if normalized by user-specified LN=54.00 and d0=2.41)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+--QDKCKKVYENYPV-SKCQL-A-N-QCNYDCKLDKHARSGECFYDEK-R--NLQCICDYCEY
+  .:::::::::.:: ::::: : : :::::::::::::::::::: : .  :::::::::::
+AQDSECLKEYGGNVGFGFCAPRTFPTICYIRCREDKDAKGGRCITG-DAGAFDFKCLCDYCSD
+
+Total CPU time is  0.00 seconds

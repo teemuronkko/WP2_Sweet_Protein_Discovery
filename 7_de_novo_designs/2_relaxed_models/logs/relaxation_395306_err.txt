@@ -1,0 +1,888 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+mkdir: cannot create directory '/home/pqh443/ucph-erda-home': File exists
+2026-05-06 12:24:17.060891: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:17.061195: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:17.061213: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_1.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 777 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:24:26.147875: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 3055.23 Efinal -1057.86 Time 4.08 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_1.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_1.pdb
+2026-05-06 12:24:29.820033: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:29.820129: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:29.820141: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 773 / 1551 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:24:36.123273: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1806.77 Efinal -1541.20 Time 2.97 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_14.pdb
+2026-05-06 12:24:39.839614: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:39.839733: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:39.839746: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_15.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 780 / 1562 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:24:46.885300: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2090.24 Efinal -1170.18 Time 3.75 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_15.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_15.pdb
+2026-05-06 12:24:50.706355: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:50.706488: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:24:50.706505: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_16.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 779 / 1562 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:24:58.550242: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1902.19 Efinal -1114.44 Time 4.01 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_16.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_16.pdb
+2026-05-06 12:25:02.336798: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:02.336917: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:02.336931: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_2.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 785 / 1570 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:25:09.580092: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1335.17 Efinal -1934.53 Time 3.61 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_2.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_2.pdb
+2026-05-06 12:25:13.398563: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:13.398713: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:13.398732: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_3.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 775 / 1549 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:25:21.518389: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1623.19 Efinal -1564.92 Time 4.28 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_3.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_3.pdb
+2026-05-06 12:25:26.686806: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:26.686945: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:26.686960: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_5.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 784 / 1564 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:25:35.122733: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1937.83 Efinal -982.28 Time 4.16 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_5.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_5.pdb
+2026-05-06 12:25:39.439127: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:39.439239: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:39.439252: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_6.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 770 / 1534 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:25:47.032817: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2167.43 Efinal -828.68 Time 3.89 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_6.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_6.pdb
+2026-05-06 12:25:52.014068: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:52.014191: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:25:52.014206: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_8.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 784 / 1567 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:26:00.205937: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1927.14 Efinal -1377.12 Time 4.47 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_8.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_015_MNEI_1IV7_8.pdb
+2026-05-06 12:26:04.314718: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:04.314839: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:04.314861: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 773 / 1558 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:26:12.376095: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1761.98 Efinal -1583.74 Time 4.15 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_14.pdb
+2026-05-06 12:26:17.012240: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:17.012357: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:17.012373: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_16.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 784 / 1575 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:26:24.974111: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1683.57 Efinal -1495.24 Time 4.42 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_16.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_16.pdb
+2026-05-06 12:26:29.310714: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:29.310821: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:29.310834: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_2.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 783 / 1569 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:26:36.507806: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 965.31 Efinal -1969.86 Time 3.41 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_2.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_2.pdb
+2026-05-06 12:26:40.521636: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:40.521736: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:40.521749: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_3.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 777 / 1536 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:26:48.006675: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1969.60 Efinal -1301.42 Time 4.00 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_3.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_3.pdb
+2026-05-06 12:26:51.937877: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:51.937993: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:26:51.938009: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_5.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 782 / 1565 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:26:58.877685: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1722.60 Efinal -1322.96 Time 3.29 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_5.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_5.pdb
+2026-05-06 12:27:02.567060: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:02.567176: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:02.567189: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_6.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 770 / 1534 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:27:09.605080: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2178.05 Efinal -844.00 Time 3.76 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_6.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_6.pdb
+2026-05-06 12:27:13.282311: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:13.282409: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:13.282422: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_8.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 784 / 1567 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:27:19.759182: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1832.72 Efinal -1364.40 Time 3.17 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_8.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_01_MNEI_1IV7_8.pdb
+2026-05-06 12:27:23.801824: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:23.801944: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:23.801959: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_15.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 769 / 1531 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:27:31.312366: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2043.22 Efinal -1329.25 Time 3.73 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_15.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_025_MNEI_1IV7_15.pdb
+2026-05-06 12:27:35.367649: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:35.367743: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:35.367756: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_18.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 780 / 1557 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:27:43.326702: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1953.52 Efinal -1208.58 Time 4.02 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_18.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_025_MNEI_1IV7_18.pdb
+2026-05-06 12:27:47.105577: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:47.105686: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:47.105703: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_6.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 765 / 1545 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:27:54.524383: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1792.65 Efinal -1197.43 Time 4.01 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_6.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_025_MNEI_1IV7_6.pdb
+2026-05-06 12:27:58.704143: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:58.704258: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:27:58.704273: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_7.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 778 / 1542 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:28:06.174694: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2036.47 Efinal -974.77 Time 3.72 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_7.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_025_MNEI_1IV7_7.pdb
+2026-05-06 12:28:09.796481: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:09.796579: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:09.796592: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_8.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 786 / 1566 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:28:17.895932: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2060.58 Efinal -1188.13 Time 4.70 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_8.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_025_MNEI_1IV7_8.pdb
+2026-05-06 12:28:21.902297: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:21.902405: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:21.902421: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_1.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 775 / 1565 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:28:29.287355: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1791.91 Efinal -1257.11 Time 3.80 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_1.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_1.pdb
+2026-05-06 12:28:33.083436: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:33.083545: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:33.083558: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_13.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 783 / 1550 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:28:39.773121: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2082.75 Efinal -1163.72 Time 3.42 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_13.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_13.pdb
+2026-05-06 12:28:43.467283: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:43.467374: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:43.467387: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 775 / 1552 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:28:50.700049: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2165.54 Efinal -1521.85 Time 3.47 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_14.pdb
+2026-05-06 12:28:54.660154: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:54.660291: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:28:54.660310: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_18.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 781 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:29:01.759886: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1727.07 Efinal -1337.08 Time 3.16 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_18.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_18.pdb
+2026-05-06 12:29:05.707441: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:05.707542: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:05.707555: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_2.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 785 / 1570 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:29:13.366990: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1250.92 Efinal -1929.70 Time 4.18 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_2.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_2.pdb
+2026-05-06 12:29:17.147670: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:17.147777: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:17.147791: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_3.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 775 / 1544 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:29:24.850738: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1807.25 Efinal -1516.90 Time 4.21 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_3.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_3.pdb
+2026-05-06 12:29:28.607185: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:28.607293: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:28.607308: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_4.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 789 / 1569 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:29:36.124284: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2610.26 Efinal -820.46 Time 3.94 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_4.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_4.pdb
+2026-05-06 12:29:39.830131: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:39.830228: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:39.830241: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_6.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 772 / 1547 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:29:47.052808: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2169.88 Efinal -1174.54 Time 3.81 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_6.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_6.pdb
+2026-05-06 12:29:51.009324: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:51.009417: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:29:51.009430: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_7.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 775 / 1546 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:29:58.876850: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1812.97 Efinal -1281.84 Time 3.84 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_7.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_7.pdb
+2026-05-06 12:30:02.982590: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:02.982700: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:02.982714: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_8.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 785 / 1568 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:30:09.947142: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2224.41 Efinal -1454.63 Time 3.47 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_8.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_02_MNEI_1IV7_8.pdb
+2026-05-06 12:30:13.462178: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:13.462258: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:13.462269: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_13.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 772 / 1527 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:30:20.337346: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2083.16 Efinal -1184.72 Time 3.56 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_13.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_03_MNEI_1IV7_13.pdb
+2026-05-06 12:30:23.983725: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:23.983827: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:23.983841: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_18.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 780 / 1557 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:30:31.596624: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1849.38 Efinal -1162.36 Time 3.91 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_18.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_fixed_03_MNEI_1IV7_18.pdb
+2026-05-06 12:30:35.259458: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:35.259548: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:35.259561: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_10.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 768 / 1544 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:30:42.751006: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1639.52 Efinal -1660.03 Time 3.96 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_10.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_015_MNEI_1IV7_10.pdb
+2026-05-06 12:30:46.480097: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:46.480196: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:46.480209: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_13.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 756 / 1528 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:30:52.831787: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1545.63 Efinal -1226.51 Time 3.07 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_13.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_015_MNEI_1IV7_13.pdb
+2026-05-06 12:30:57.270555: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:57.270685: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:30:57.270701: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 765 / 1548 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:31:05.705556: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1414.94 Efinal -1706.27 Time 3.95 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_015_MNEI_1IV7_14.pdb
+2026-05-06 12:31:09.362818: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:09.362911: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:09.362924: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_5.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 774 / 1572 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:31:16.273368: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2265.72 Efinal -1362.70 Time 3.61 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_5.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_015_MNEI_1IV7_5.pdb
+2026-05-06 12:31:19.959786: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:19.959883: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:19.959896: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_7.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 781 / 1572 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:31:27.131525: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1789.82 Efinal -975.26 Time 3.76 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_7.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_015_MNEI_1IV7_7.pdb
+2026-05-06 12:31:31.115682: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:31.115799: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:31.115815: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_10.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 773 / 1550 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:31:38.392190: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1841.05 Efinal -1181.43 Time 3.48 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_10.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_01_MNEI_1IV7_10.pdb
+2026-05-06 12:31:41.983975: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:41.984073: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:41.984085: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 772 / 1557 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:31:49.287470: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1611.00 Efinal -1573.14 Time 3.97 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_01_MNEI_1IV7_14.pdb
+2026-05-06 12:31:53.140203: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:53.140304: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:31:53.140317: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_15.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 779 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:31:59.672427: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2043.77 Efinal -1205.73 Time 3.20 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_15.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_01_MNEI_1IV7_15.pdb
+2026-05-06 12:32:03.932175: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:03.932293: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:03.932313: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_19.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 759 / 1507 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:32:11.231931: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1590.54 Efinal -1823.11 Time 3.08 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_19.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_01_MNEI_1IV7_19.pdb
+2026-05-06 12:32:14.844901: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:14.845000: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:14.845013: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_4.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 773 / 1562 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:32:22.406098: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1364.58 Efinal -1373.19 Time 4.21 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_4.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_01_MNEI_1IV7_4.pdb
+2026-05-06 12:32:25.998759: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:25.998858: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:25.998871: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_5.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 774 / 1572 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:32:32.632224: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1942.29 Efinal -1361.26 Time 3.26 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_5.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_01_MNEI_1IV7_5.pdb
+2026-05-06 12:32:36.576255: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:36.576388: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:36.576405: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_10.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 768 / 1549 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:32:44.171245: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1376.51 Efinal -1752.31 Time 3.67 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_10.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_025_MNEI_1IV7_10.pdb
+2026-05-06 12:32:47.590678: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:47.590779: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:47.590792: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 766 / 1547 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:32:54.724078: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1318.52 Efinal -1851.34 Time 3.75 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_025_MNEI_1IV7_14.pdb
+2026-05-06 12:32:58.265626: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:58.265728: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:32:58.265739: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_18.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 772 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:33:06.039046: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2856.82 Efinal -1190.21 Time 3.90 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_18.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_025_MNEI_1IV7_18.pdb
+2026-05-06 12:33:10.082533: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:10.082642: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:10.082655: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_19.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 760 / 1523 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:33:17.809595: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1632.16 Efinal -1307.23 Time 3.99 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_19.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_025_MNEI_1IV7_19.pdb
+2026-05-06 12:33:21.439491: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:21.439606: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:21.439620: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_7.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 770 / 1559 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:33:28.806269: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1454.85 Efinal -1498.56 Time 3.93 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_7.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_025_MNEI_1IV7_7.pdb
+2026-05-06 12:33:32.569267: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:32.569379: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:32.569395: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_9.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 769 / 1557 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:33:43.527315: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 2113.28 Efinal -1052.62 Time 7.23 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_9.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_025_MNEI_1IV7_9.pdb
+2026-05-06 12:33:47.314227: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:47.314322: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:47.314334: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_13.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 756 / 1537 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:33:54.984968: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1226.63 Efinal -1417.67 Time 4.41 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_13.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_13.pdb
+2026-05-06 12:33:59.053830: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:59.053945: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:33:59.053961: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_14.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 766 / 1547 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:34:06.711671: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1260.70 Efinal -1853.01 Time 4.01 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_14.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_14.pdb
+2026-05-06 12:34:10.706910: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:10.707008: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:10.707022: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_18.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 772 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:34:17.935039: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1806.95 Efinal -1189.28 Time 3.35 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_18.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_18.pdb
+2026-05-06 12:34:21.553655: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:21.553760: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:21.553773: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_19.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 748 / 1496 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:34:29.424814: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1697.76 Efinal -1485.62 Time 4.23 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_19.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_19.pdb
+2026-05-06 12:34:33.644472: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:33.644590: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:33.644606: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_5.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 774 / 1572 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:34:41.224274: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1369.54 Efinal -1479.97 Time 3.95 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_5.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_5.pdb
+2026-05-06 12:34:44.634715: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:44.634800: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:44.634811: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_6.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 748 / 1524 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:34:51.532507: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1551.00 Efinal -1459.12 Time 3.65 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_6.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_6.pdb
+2026-05-06 12:34:55.241927: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:55.242036: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:34:55.242053: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_7.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 774 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:35:03.008851: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1895.10 Efinal -1200.18 Time 4.07 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_7.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_02_MNEI_1IV7_7.pdb
+2026-05-06 12:35:06.910337: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:06.910434: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:06.910447: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_10.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 775 / 1556 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:35:13.550069: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 975.98 Efinal -1847.19 Time 3.29 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_10.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_03_MNEI_1IV7_10.pdb
+2026-05-06 12:35:17.624233: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:17.624353: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:17.624366: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_18.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 770 / 1552 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:35:25.278044: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1878.43 Efinal -1162.67 Time 3.82 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_18.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_03_MNEI_1IV7_18.pdb
+2026-05-06 12:35:28.762582: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:28.762671: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:28.762682: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_19.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 760 / 1523 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:35:36.847778: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1709.20 Efinal -1304.50 Time 4.32 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_19.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_03_MNEI_1IV7_19.pdb
+2026-05-06 12:35:40.311711: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:40.311793: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:40.311804: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_5.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 768 / 1557 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:35:48.605992: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1655.97 Efinal -1478.46 Time 5.03 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_5.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_03_MNEI_1IV7_5.pdb
+2026-05-06 12:35:52.159729: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:52.159812: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2026-05-06 12:35:52.159823: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+WARNING:root:Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+INFO:absl:Running Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_7.pdb
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {<Residue 95 (PRO) of chain 0>: ['OXT']}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+INFO:absl:Minimizing protein, attempt 1 of 100.
+INFO:absl:Restraining 771 / 1560 particles.
+INFO:absl:alterations info: {'nonstandard_residues': [], 'removed_heterogens': set(), 'missing_residues': {}, 'missing_heavy_atoms': {}, 'missing_terminals': {}, 'Se_in_MET': [], 'removed_chains': {0: []}}
+2026-05-06 12:35:59.430768: E external/org_tensorflow/tensorflow/compiler/xla/stream_executor/cuda/cuda_driver.cc:267] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+WARNING:jax._src.lib.xla_bridge:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:Iteration completed: Einit 1777.72 Efinal -1503.89 Time 3.90 s num residue violations 0 num residue exclusions 0 
+INFO:absl:Finished Amber relaxation for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_7.pdb
+INFO:absl:Saving relaxed .pdb structure to ./relaxed_designs/pdb_dir/cpu_relaxed_free_03_MNEI_1IV7_7.pdb

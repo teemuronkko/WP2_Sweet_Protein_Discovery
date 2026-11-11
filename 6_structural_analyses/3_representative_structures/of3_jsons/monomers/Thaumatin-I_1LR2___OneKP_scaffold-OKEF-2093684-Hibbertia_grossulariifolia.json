@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-OKEF-2093684-Hibbertia_grossulariifolia": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "VTFYVSNKCPFPIWPATASNAGHPVIADGGFFLPKDQTRRIHAPPTWNGRLWARTGCDFSSPSKLVCQTGDCNGKLECNGSIGLPPATLVQVSLQPDKSKPSFYDVSLVDGYNIPVSVSSKPISSKCSIGGCSKSLIGMCPRELQVLDGSGGSVVACKSACLAFNLDIFCCRNEYGSPDKCKPNMYSKMFKDACPSYYSYAYDTPSPLFSCFSNVYVITFCPSK",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-OKEF-2093684-Hibbertia_grossulariifolia/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

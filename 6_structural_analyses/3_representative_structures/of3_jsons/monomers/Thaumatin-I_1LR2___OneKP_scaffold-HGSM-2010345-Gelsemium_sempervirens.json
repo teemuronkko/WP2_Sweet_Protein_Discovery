@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-HGSM-2010345-Gelsemium_sempervirens": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TSFKIVNKCRRTIWPGALTGANRPPLTPTGFILESGKSKTLSVPKSWSGRPSSGKFSCLTADCASGKVECAGAGAIPPATLAEFTLNGDQGLDFYDVSLVDGYNLPMLVVPKGGKRGGCSSTGCLVDLNGACPSELRVARGNRSRSRSESVACKSACEAFGDPKFCCSEGYNTPDTCPPSAYSLYFKHACPRAYSYAYDDKTSTFTCASADYLIIFCPEP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-HGSM-2010345-Gelsemium_sempervirens/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

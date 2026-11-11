@@ -12,7 +12,7 @@
 
 module load miniconda                                           
 conda activate base
-output_path="/projects/ilfgrid/people/pqh443/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/2_uniprot_data"
+output_path="/projects/ilfgrid/people/pqh443/Git_projects/WP2_Sweet_Protein_Discovery/1_viridiplantae_prot_db/2_uniprot_data"
 mkdir -p ./logs
 
 # Run fasta script

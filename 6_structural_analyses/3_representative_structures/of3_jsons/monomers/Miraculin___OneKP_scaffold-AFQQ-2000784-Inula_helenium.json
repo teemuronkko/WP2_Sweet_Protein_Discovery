@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-AFQQ-2000784-Inula_helenium": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "DVEGNRLPKDVGYTISPPVWGPLGGSVKLATPADVIQDPFDIYSGTPFTFTPVNPSEESIKLGSPLAIQSPTQNPCGKSTVWQVSSREGVAAQIITTGGSINTGPSCLRITKPEQQLFPTSYVIEHCPYMCVGAKICHTVGIYGSQSGGTFIRHLSTNGAPFQFVFIK",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-AFQQ-2000784-Inula_helenium/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

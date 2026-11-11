@@ -1,4 +1,4 @@
-# WP2_SweetProteinDiscovery
+# WP2_Sweet_Protein_Discovery
 
 GitHub repository for WP2 on Sweet Proteins. 
 

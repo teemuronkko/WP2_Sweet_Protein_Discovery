@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-WFBF-2010448-Podophyllum_peltatum": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TTIALVNKCPHPVWPGIQPSAGKPILSRGGFKLNPKQAYSLRAPAGWSGRIWGRHECLFDAAGRGHCATGDCGGTLYCNGAGGVPPATLAEITLGQPDFYDVSLVDGYNLAISITPFRGKGRCSYAGWISDLNGMCPVGLQVRSHDNSHVVACKSACSAFKSPRFCCTGLYGNPQSCKPTAYSKIFKTACPRAYSYAYDDPTSIATCSGGSYLITFCPHH",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-WFBF-2010448-Podophyllum_peltatum/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

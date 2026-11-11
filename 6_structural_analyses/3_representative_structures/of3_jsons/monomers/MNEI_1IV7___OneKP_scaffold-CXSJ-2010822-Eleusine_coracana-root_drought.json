@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "MNEI_1IV7___OneKP_scaffold-CXSJ-2010822-Eleusine_coracana-root_drought": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GGWSPIQDVGDAHIQELGGWALGQAKQDRLASDGLRFRRVVRGEQQVVSGMNYRLVVDAADLKGQSAPYVAVVYEQSWTNTRKLTSFKPVSAA",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/MNEI_1IV7___OneKP_scaffold-CXSJ-2010822-Eleusine_coracana-root_drought/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

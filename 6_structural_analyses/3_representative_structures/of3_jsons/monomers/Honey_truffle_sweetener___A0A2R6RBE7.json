@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Honey_truffle_sweetener___A0A2R6RBE7": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GNGDSTQCLIYNATGDRLAITLYHDVQGSLGAAPYPLFIENGQWGAFLHVSWTFTGSIGAVVYRGKNESGDEFDCLLSWCNPYNKSSYNSAAYIEIHASGYFSDVNWRQISDKLHASTLVHSSEWNGCKVSATMGRMDSAVFEGVVTLSNA",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Honey_truffle_sweetener___A0A2R6RBE7/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

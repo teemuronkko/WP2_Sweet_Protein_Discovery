@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Brazzein_4HE7___A0A397Z8B5": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "QDSECLKEYGGNVGFGFCAPRTFPTICYIRCREDKDAKGGRCITGDAGAFDFKCLCDYCSD",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Brazzein_4HE7___A0A397Z8B5/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

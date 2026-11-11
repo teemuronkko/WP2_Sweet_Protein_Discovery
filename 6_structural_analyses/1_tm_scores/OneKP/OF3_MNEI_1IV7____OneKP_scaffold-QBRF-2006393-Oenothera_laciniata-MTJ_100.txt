@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/MNEI_1IV7.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_openfold3_models/OneKP/OneKP_scaffold-QBRF-2006393-Oenothera_laciniata-MTJ_100/OneKP_scaffold-QBRF-2006393-Oenothera_laciniata-MTJ_100.temp/seed_42/OneKP_scaffold-QBRF-2006393-Oenothera_laciniata-MTJ_100.temp_seed_42_sample_1_model.pdb
+Length of Chain_1: 96 residues
+Length of Chain_2: 92 residues
+
+Aligned length= 83, RMSD=   1.62, Seq_ID=n_identical/n_aligned= 0.253
+TM-score= 0.76943 (if normalized by length of Chain_1, i.e., LN=96, d0=3.57)
+TM-score= 0.79955 (if normalized by length of Chain_2, i.e., LN=92, d0=3.48)
+TM-score= 0.76943 (if normalized by user-specified LN=96.00 and d0=3.57)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+-GEWEII-DI-G-PFTQNLGKFAVDEENKIGQYGRLTFNKVIRPCMKKTIYENEGFREIKGYEYQLYVYAS----DKLFRADISEDYKTRGRKLLRFNGPVPPP-
+ :::::: :: : ::::::::::::::::::. :::::::::: ::::::         ::::::::::::    :::::::::::::::::::::::: ::.  
+VGGVKEVEGSANSLEIDTLARFAVDEHNKKQN-SLLQFGKVVN-TKQQVV---------AGTVYYITLEATDGGTKKVYEAKIWTKPWLNFQELQEFKL-IGN-A
+
+Total CPU time is  0.01 seconds

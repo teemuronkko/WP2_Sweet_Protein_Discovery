@@ -11,7 +11,7 @@ if __name__ == "__main__":
     foldseek_candidates = foldseek_candidates.drop(columns = ["length_diff", "interface_residues", "grantham_score", "model", "target", "seq_length"])
     foldseek_candidates = foldseek_candidates.rename(columns = {"cropped_tseq": "sequence"})
 
-    # First, make fasta file for all MNEI hits
+    # Make fasta file for all MNEI and Honey_truffle_sweetener hits
     with open(os.path.join(repo_path, "8_protein_selection", "0_MNEI_1IV7_hits.fasta"), "w") as fasta_file:
         for index, row in foldseek_candidates.iterrows():
             if row["query"] == "MNEI_1IV7":
@@ -20,13 +20,11 @@ if __name__ == "__main__":
             fasta_file.write(f">{row['id']}\n{row['sequence']}\n")
         fasta_file.write(">MNEI_1IV7\nGEWEIIDIGPFTQNLGKFAVDEENKIGQYGRLTFNKVIRPCMKKTIYENEGFREIKGYEYQLYVYASDKLFRADISEDYKTRGRKLLRFNGPVPPP\n")
 
-    # Then, make fasta file for all Thaumatin hits
-    with open(os.path.join(repo_path, "8_protein_selection", "0_Thaumatin_hits.fasta"), "w") as fasta_file:
+    with open(os.path.join(repo_path, "8_protein_selection", "0_Honey_truffle_sweetener_hits.fasta"), "w") as fasta_file:
         for index, row in foldseek_candidates.iterrows():
-            if row["query"] in ["Thaumatin-I_1LR2", "Thaumatin-II_3AOK"]:
+            if row["query"] == "Honey_truffle_sweetener":
                 fasta_file.write(f">{row['target_id']}\n{row['sequence']}\n")
-        fasta_file.write(">Thaumatin-I_1LR2\nATFEIVNRCSYTVWAAASKGDAALDAGGRQLNSGESWTINVEPGTNGGKIWARTDCYFDDSGSGICKTGDCGGLLRCKRFGRPPTTLAEFSLNQYGKDYIDISNIKGFNVPMNFSPTTRGCRGVRCAADIVGQCPAKLKAPGGGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA\n")
-        fasta_file.write(">Thaumatin-II_3AOK\nATFEIVNRCSYTVWAAASKGDAALDAGGRQLNSGESWTINVEPGTKGGKIWARTDCYFDDSGRGICRTGDCGGLLQCKRFGRPPTTLAEFSLNQYGKDYIDISNIKGFNVPMDFSPTTRGCRGVRCAADIVGQCPAKLKAPGGGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA\n")
+        fasta_file.write(">Honey_truffle_sweetener\nMPDLSSFITIKNNSNHVFTRTAIYSKYAAVQWSPEPQLSISPGKWDLFILKDILSIRGTSGYVQYRVGDGPGWVRVTFSSLVGADEVAEWSSGDLPDGFVLQKPVRTGSRPLQATFEATKQ\n")
 
     de_novo_candidates["query"] = "MNEI_1IV7"
     de_novo_candidates["source"] = "ProteinMPNN"
@@ -41,9 +39,8 @@ if __name__ == "__main__":
     })
     de_novo_candidates = de_novo_candidates[foldseek_candidates.columns] 
     all_candidates = pd.concat([foldseek_candidates, de_novo_candidates], ignore_index = True)
-    all_candidates = all_candidates[all_candidates["query"].isin(["MNEI_1IV7", "Thaumatin-I_1LR2", "Thaumatin-II_3AOK"])]
+    all_candidates = all_candidates[all_candidates["query"].isin(["MNEI_1IV7", "Honey_truffle_sweetener"])]
 
-    # Add native MNEI sequence to the dataframe
     mnei_row = {
         "target_id": "MNEI_1IV7",
         "query": "MNEI_1IV7_native",
@@ -53,23 +50,15 @@ if __name__ == "__main__":
         "best_model": "MNEI_1IV7",
     }
 
-    thaumatin_i_row = {
-        "target_id": "Thaumatin-I_1LR2",
-        "query": "Thaumatin-I_1LR2_native",
-        "sequence": "ATFEIVNRCSYTVWAAASKGDAALDAGGRQLNSGESWTINVEPGTNGGKIWARTDCYFDDSGSGICKTGDCGGLLRCKRFGRPPTTLAEFSLNQYGKDYIDISNIKGFNVPMNFSPTTRGCRGVRCAADIVGQCPAKLKAPGGGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA",
-        "source": "Native_Thaumatin-I",
-        "pdb": "Thaumatin-I_1LR2",
-        "best_model": "Thaumatin-I_1LR2",
+    hts_row = {
+        "target_id": "Honey_truffle_sweetener",
+        "query": "Honey_truffle_sweetener_native",
+        "sequence": "MPDLSSFITIKNNSNHVFTRTAIYSKYAAVQWSPEPQLSISPGKWDLFILKDILSIRGTSGYVQYRVGDGPGWVRVTFSSLVGADEVAEWSSGDLPDGFVLQKPVRTGSRPLQATFEATKQ",
+        "source": "Native_Honey_truffle_sweetener",
+        "pdb": "Honey_truffle_sweetener",
+        "best_model": "Honey_truffle_sweetener",
+       
     }
 
-    thaumatin_ii_row = {
-        "target_id": "Thaumatin-II_3AOK",
-        "query": "Thaumatin-II_3AOK_native",
-        "sequence": "ATFEIVNRCSYTVWAAASKGDAALDAGGRQLNSGESWTINVEPGTKGGKIWARTDCYFDDSGRGICRTGDCGGLLQCKRFGRPPTTLAEFSLNQYGKDYIDISNIKGFNVPMDFSPTTRGCRGVRCAADIVGQCPAKLKAPGGGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA",
-        "source": "Native_Thaumatin-II",
-        "pdb": "Thaumatin-II_3AOK",
-        "best_model": "Thaumatin-II_3AOK",
-    }
-
-    all_candidates = pd.concat([all_candidates, pd.DataFrame([mnei_row, thaumatin_i_row, thaumatin_ii_row])], ignore_index=True)
+    all_candidates = pd.concat([all_candidates, pd.DataFrame([mnei_row, hts_row])], ignore_index=True)
     all_candidates.to_csv(os.path.join(repo_path, "8_protein_selection", "1_merged_candidates.tsv"), sep = "\t", index = False)

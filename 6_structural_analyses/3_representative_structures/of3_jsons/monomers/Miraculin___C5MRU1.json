@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___C5MRU1": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "SPVPKPVLDTNGKKLNPNSSYRIISTFWGALGGDVYLGKSPNSDAPCPDGVFRYNSDVGPSGTPVRFIPLSGANIFEDQLLNIQFNIPTVKLCVSYTIWKVGNINAHLRTMLLETGGTIGQADSSYFKIVKSSKFGYNLLYCPLTRHFLCPFCRDDNFCAKVGVVIQNGKRRLALVNENPLDVLFQEV",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___C5MRU1/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_Sweet_Protein_Discovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Honey_truffle_sweetener.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Documents/Git_projects/WP2_Sweet_Protein_Discovery/6_structural_analyses/4_openfold3_predictions/monomers//Honey_truffle_sweetener/Honey_truffle_sweetener___A0A5D2UME0/Honey_truffle_sweetener___A0A5D2UME0_seed_42_sample_5_model.pdb
+Length of Chain_1: 121 residues
+Length of Chain_2: 142 residues
+
+Aligned length= 111, RMSD=   2.43, Seq_ID=n_identical/n_aligned= 0.144
+TM-score= 0.73889 (if normalized by length of Chain_1, i.e., LN=121, d0=4.07)
+TM-score= 0.64580 (if normalized by length of Chain_2, i.e., LN=142, d0=4.43)
+TM-score= 0.73889 (if normalized by user-specified LN=121.00 and d0=4.07)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+M-PDLSSFITIKNNSNHVFTRTAIYSKYAAVQWSPEPQLSISPGK-WDLFILKDILSIRGTSGYVQYRVGDGPGWVRVTFSSL--V-GADEVAEWSSGD-------------------------L-PDGFVLQKPVRTGSRPLQATFEATKQ
+  .:::::::::::::::::::::::::  :::  :::::::::: ::::::::. : :::::::::::::: ::::::::::  : ::::::::::::                         : .::::::::.:..:::::::::::  
+-GVQFFTQCQFRNLYGQDLKLEDHIYWH--GYG--DPPETIAQNQSASEFRHSGD-S-VGSVGAVSYLVGDK-VRWIIAWSNSGEDPLKLNKVYSEINEVSEGEIDWHSIKDSLDQNLSKYKAINIKYGYSADLMIDPTSNTPTMTATFN--
+
+Total CPU time is  0.02 seconds

@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___OneKP_scaffold-DCCI-2016105-Calceolaria_pinifolia": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "ATFTFVNKCQFTVWPGILSSAGITPLPTTGFALQTGESRLIDAPSSWGGRFWGRTQCTTDSAGKFSCLTGDCGSGRIDCAGAGATPPATLAEFKLDGDAGKDFYDVSLVDGYNLPMLVVPQGGTGDNCTSTGCVGDLNGACPADMRVTSAEGKSGSVACKSACEAFGKEEYCCSGAYGTPDVCKPSQYSEMFKSVCPLAYSYAYDDRTSTFTCVDADYIVTFCPSP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___OneKP_scaffold-DCCI-2016105-Calceolaria_pinifolia/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

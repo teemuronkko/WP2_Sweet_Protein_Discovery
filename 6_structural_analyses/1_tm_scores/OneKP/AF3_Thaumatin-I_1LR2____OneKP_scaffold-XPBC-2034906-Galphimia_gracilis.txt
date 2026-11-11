@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Thaumatin-I_1LR2.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_alphafold3_models/OneKP/models/onekp_scaffold-xpbc-2034906-galphimia_gracilis/onekp_scaffold-xpbc-2034906-galphimia_gracilis_model.pdb
+Length of Chain_1: 207 residues
+Length of Chain_2: 179 residues
+
+Aligned length= 163, RMSD=   2.17, Seq_ID=n_identical/n_aligned= 0.344
+TM-score= 0.72072 (if normalized by length of Chain_1, i.e., LN=207, d0=5.35)
+TM-score= 0.82615 (if normalized by length of Chain_2, i.e., LN=179, d0=4.99)
+TM-score= 0.72072 (if normalized by user-specified LN=207.00 and d0=5.35)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+ATFEIVNRCSYTVWAAASKGD--AALDAGGRQLNSGESWTINVE-PGTNGGKIWARTDCYFDD-SGSGICKTGDCGGLLRC-KRFGRPPTTLAEFSLNQY--GKDYIDISNIKGFNVPMNFSPTTRG--CRGVRCAADIVGQCPAKLKAPG-----GGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA--
+::::::::::::::::::::.  .:::::::::::::::::::: :::: :::::::::::.  . .:::::::::::::: ::::::::::::::::::  :::::::::::::::::::::::::  ::::::::::::::::::::::     :::::::::::::::::::.:.                   ..                        
+MILTLVNNCPSTIYPAIQPNAGFPVLEKGGFPLQSLTHRSFPAPTQHWS-GRIWARTGCTHV-NS-KFHCSTGDCANQIECNGLGGAAPATLAQFSLHHGHKDFSSYGVSLVDGFNIPMTVTPHEGQGQCPVVGCRADLLATCPPKLQLRSHQGRVVGCKSGCEAFGTDELCCRNHYN-------------------SP----------------------QT
+
+Total CPU time is  0.02 seconds

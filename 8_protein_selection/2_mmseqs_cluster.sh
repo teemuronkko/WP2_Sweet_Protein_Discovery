@@ -1,5 +1,5 @@
 # Input and output paths
-SWEET_PROTEINS=("MNEI_1IV7" "Thaumatin")
+SWEET_PROTEINS=("Honey_truffle_sweetener" "MNEI_1IV7")
 for SWEET_PROTEIN in "${SWEET_PROTEINS[@]}"; do
 	INPUT_DB=./0_${SWEET_PROTEIN}_hits.fasta
 

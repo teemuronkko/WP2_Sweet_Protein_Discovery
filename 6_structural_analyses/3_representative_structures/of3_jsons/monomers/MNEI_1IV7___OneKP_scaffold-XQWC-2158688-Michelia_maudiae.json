@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "MNEI_1IV7___OneKP_scaffold-XQWC-2158688-Michelia_maudiae": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "GGREEIVDVKSNQEVQTLGKFCVQEFNKTSRRGPIEFSQVVKAEKQVVSGIKYYLTIEAAEGGVKRTFDAVVVVKEWLHSKELLSFVP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/MNEI_1IV7___OneKP_scaffold-XQWC-2158688-Michelia_maudiae/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

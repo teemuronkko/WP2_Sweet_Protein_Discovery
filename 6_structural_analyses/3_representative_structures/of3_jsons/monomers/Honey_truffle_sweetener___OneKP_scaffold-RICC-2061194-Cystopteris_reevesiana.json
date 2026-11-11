@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Honey_truffle_sweetener___OneKP_scaffold-RICC-2061194-Cystopteris_reevesiana": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "MGYAQWVRVTLKTVSDGTLQVKEATTKYGKWYNATPAPEGDKDTEVASPGGASFNKASPLVFATCGREDSPSGAEGSVEIWDGDTKVVTIYWDCPYIGSNSVKLTNQDNAYIIQQKPTSVSTSGAIGNVEYTIVKL",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Honey_truffle_sweetener___OneKP_scaffold-RICC-2061194-Cystopteris_reevesiana/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

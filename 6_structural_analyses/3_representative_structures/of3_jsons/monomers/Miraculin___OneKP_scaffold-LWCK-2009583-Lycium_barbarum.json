@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-LWCK-2009583-Lycium_barbarum": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "ATSAKLVVDRNGKALDPRASYRIVSIFRGALGGDVYLGASPKSTSHFNCLDGVFRYNSDVGPSGTPVEFIKSDHTGPGIFENQDINIKFFTATTRLCVNYTTWKVGDYDVSLGARLLQTGGTTGQEDSSWFKIVKTQGAWGYQLLYCPGPLVCPSCPVDQCQTVGQVIQNRKKRLALVKDQRLRVLFQKV",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-LWCK-2009583-Lycium_barbarum/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

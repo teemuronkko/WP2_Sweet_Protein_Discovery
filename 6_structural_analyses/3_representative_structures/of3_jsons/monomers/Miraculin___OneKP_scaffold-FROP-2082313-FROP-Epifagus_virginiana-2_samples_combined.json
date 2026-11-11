@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-FROP-2082313-FROP-Epifagus_virginiana-2_samples_combined": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "SSSPAPVLDNAGRALERGVEYYINPAITDSGGRFTLINRNGCPFYVGQENVSGLEGFPVTFTPFIEGETVIRENGDLRIVFSAATICVQSTAWKLGERDPETERRLIVTGEDQSSRSTGNYFRIVKASVGTNIYEISWCPTQVCPICRFDCGTVGNLVENGKRLSALDGGVIPVQFER",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-FROP-2082313-FROP-Epifagus_virginiana-2_samples_combined/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

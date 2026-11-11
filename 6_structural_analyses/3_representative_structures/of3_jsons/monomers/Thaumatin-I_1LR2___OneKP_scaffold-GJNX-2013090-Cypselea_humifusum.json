@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-GJNX-2013090-Cypselea_humifusum": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "LILTVVNNCPFTIWPAIQPNLGFPVLERGGFALNTLTHRSFRAPTTHWSGRIWARTGCTYTNGHFRCVTGDCGGSLECNGRGGAPPATLAQFTLHHGHKDQSSYGVSLVDGFNLPMTVTPHEGQGVCPVVGCRHNLLLTCPEHLKLKSPQGHGPVVGCKSGCHAYNTDELCCRGHYNSPQTCKPSSYSEFFKHACPSTVTYAHDSPSLMHDCASPRELKVIFCH",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-GJNX-2013090-Cypselea_humifusum/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

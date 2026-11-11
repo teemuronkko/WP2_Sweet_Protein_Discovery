@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-QSKP-2009487-Polansia_trachysperma": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TSFTIVNKCEYTVWPGILSNAGVPTLPTTGFVLQKGETRTINAPSSWGGRFWGRTFCSTDSTGKFSCATGDCGSSKLECSGAAAAPPATLAEFTLDGSGGLDFYDVSLVDGYNLPMLVVPQGGSGDNCSTTGCVVDLNGACPSELRVTSVAGGGKQPMACKSACEAFRRPEYCCSGAYASPDTCKPSSYSQIFKSACPRAYSYAYDDKTSTFTCAKSPNYVITFCPSP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-QSKP-2009487-Polansia_trachysperma/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

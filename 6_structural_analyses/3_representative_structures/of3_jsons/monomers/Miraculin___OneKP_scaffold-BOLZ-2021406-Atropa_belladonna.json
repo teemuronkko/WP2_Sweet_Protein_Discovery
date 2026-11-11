@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-BOLZ-2021406-Atropa_belladonna": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "LPVIPSVRDVKGEALQVGSSYRIISVGRGAAGGDVYLGPSPNSTSPCPDGVFRYNSDVGPRGMPVRFIKFGHSGLGIHEREDINIQFNIVTSRLCVSHTIWKVGDYDISLGARLLGTGGTLSQQDSSWFKIVRSPQLGYNLLYCPGPFVCPSCPVDQCQGVGQVIQNGKRRLALVKDMPLLVQFSKV",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-BOLZ-2021406-Atropa_belladonna/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

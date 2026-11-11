@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___OneKP_scaffold-CGDN-2068615-Tetraclinis_sp.": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TVFTIVNNCAYTVWPGTLSGNGGTPLADGGFSLPPGKSMPFTTSSGWSGRIWGRTDCKFDQTGKGSCITGDCGNSFKCNSGGTPPATLAEFTLGDKDFYDVSLVDGYNLPLTVTAVGGAGDCKTAGCASDLRSSCPAELSVKNDGQVSACKSACLAFATPEYCCTGEHASPQTCSPSKYSKEFKKACPNAYTYAYDDPTSLYTCSSANYIITFCPTS",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___OneKP_scaffold-CGDN-2068615-Tetraclinis_sp./uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

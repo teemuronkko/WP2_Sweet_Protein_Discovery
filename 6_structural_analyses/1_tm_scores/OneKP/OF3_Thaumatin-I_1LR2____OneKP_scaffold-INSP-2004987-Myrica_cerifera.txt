@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Thaumatin-I_1LR2.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_openfold3_models/OneKP/OneKP_scaffold-INSP-2004987-Myrica_cerifera/OneKP_scaffold-INSP-2004987-Myrica_cerifera.temp/seed_42/OneKP_scaffold-INSP-2004987-Myrica_cerifera.temp_seed_42_sample_1_model.pdb
+Length of Chain_1: 207 residues
+Length of Chain_2: 168 residues
+
+Aligned length= 148, RMSD=   2.15, Seq_ID=n_identical/n_aligned= 0.324
+TM-score= 0.65737 (if normalized by length of Chain_1, i.e., LN=207, d0=5.35)
+TM-score= 0.80039 (if normalized by length of Chain_2, i.e., LN=168, d0=4.83)
+TM-score= 0.65737 (if normalized by user-specified LN=207.00 and d0=5.35)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+--------ATFEIVNRCSYTVWAAASKG-D-AALDAGGRQLNSGESWTINVEPGTNGGKIWARTDCYFDDSGSGICKTGDCG-GLLRC-KRFGRPPTTLAEFSLNQY-GKDYIDISNIKGFNVPMNFSPTTR-G-CRGVRCAADIVGQCPAKLKAPG-----GGCNDACTVFQTSEYCCTTGKCGPTEYSRFFKRLCPDAFSYVLDKPTTVTCPGSSNYRVTFCPTA
+        :::::::::::::::::::: : .:::::::::::::::::::::::: :::::::::::....:::::::::: ::::: ::::::::::::::::.. :::::::::::::::::::::::: : ::::::::::::::::::::::     ::::::        :                                                  
+FFLPGAHSARITFKNNCPNTVWPGTLTADQKPQLSTTGFELSPQAFVSVDVQAPWI-GRFWARTNCSTDASGKFSCATADCASGQVACNGNGAIPPASLVEINIAANGGQDFYDVSLVDGFNLPVSVATQGGTGECKTSSCSANVNAACPAELQVKGSDGSVIACKSA--------C--------------------------------------------------
+
+Total CPU time is  0.02 seconds

@@ -1,37 +1,21 @@
-# Helper script to convert CIF files to PDB format
 import os
-from Bio.PDB import MMCIFParser, PDBIO
+import sys
 
-def cif_to_pdb(cif_file, pdb_file):
-    """
-    Converts a CIF file to PDB format.
-
-    Args:
-        cif_file (str): Path to the input CIF file.
-        pdb_file (str): Path to the output PDB file.
-    """
-    parser = MMCIFParser(QUIET=True)
-    structure = parser.get_structure("structure", cif_file)
-    io = PDBIO()
-    io.set_structure(structure)
-    io.save(pdb_file)
+# Custom imports from utils.py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_path = script_dir.split("WP2_Sweet_Protein_Discovery")[0] + "/WP2_Sweet_Protein_Discovery"
+sys.path.append(repo_path)
+from utils import cif_to_pdb
 
 if __name__ == "__main__":
-
-    # Get directory of the script
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_name = "WP2_SweetProteinDiscovery"
-    repo_dir = script_dir.split(repo_name)[0] + repo_name
-
     # Apply above function on all CIF files in a directory
     dbs = ["OneKP", "UniProt"]
     success = 0
     cif_total = 0
 
     # List all CIF files in the directories and convert them
-    for db in dbs:
-        
-        model_path = f"{repo_dir}/5_alphafold3_models/{db}/models"
+    for db in dbs: 
+        model_path = f"{repo_path}/5_alphafold3_models/{db}/models"
         folders = [f for f in os.listdir(model_path) if os.path.isdir(os.path.join(model_path, f))]
         cif_files = []
         for folder in folders:

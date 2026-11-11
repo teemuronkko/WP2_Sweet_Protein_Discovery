@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-II_3AOK___A0A078HRM3": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "ATFTVRNSCPYVVWAATSAPGKPGGGKRLNQGETWIINGDPGTTQARIWGRTNCNFDASGRGGCQTGDCNGVLECRSYGRAPNTLAEYALKQYADQDFIDISVIDGFNIPMEFSSASGQCTRKIRCTGDIIAQCPAQLRMNGACNGPCPVLKTEEHCCNSGNCGPTPLSMFFKQRCPDAYSYPKDDRTSLFTCPSGTNYNVIFCP",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-II_3AOK___A0A078HRM3/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

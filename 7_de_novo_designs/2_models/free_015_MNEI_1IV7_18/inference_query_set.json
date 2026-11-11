@@ -1,0 +1,34 @@
+{
+    "seeds": [
+        42
+    ],
+    "queries": {
+        "free_015_MNEI_1IV7_18": {
+            "query_name": "free_015_MNEI_1IV7_18",
+            "chains": [
+                {
+                    "molecule_type": "PROTEIN",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "description": null,
+                    "sequence": "MKEEIIPVGEFTEELGKFAVEEENKKGKFGELKFDKVVEPVIKKTIYEKEGESKIKGYIYELYVIASGKLFKAVISEDAETKEKKLLSFEGPVPAP",
+                    "non_canonical_residues": null,
+                    "smiles": null,
+                    "ccd_codes": null,
+                    "paired_msa_file_paths": null,
+                    "main_msa_file_paths": [
+                        "/tmp/of3-of-pqh443/colabfold_msas/dummy/bdf1d63f2ba34ab570d1b8a277946b4b5effc802ac6c8d03576b30f40dd456cb.npz"
+                    ],
+                    "template_alignment_file_path": null,
+                    "template_entry_chain_ids": null,
+                    "sdf_file_path": null
+                }
+            ],
+            "use_msas": false,
+            "use_paired_msas": true,
+            "use_main_msas": true,
+            "covalent_bonds": null
+        }
+    }
+}

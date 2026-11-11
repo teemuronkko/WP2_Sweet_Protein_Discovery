@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-VXOD-2008816-Linum_tenuifolium": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TAQSPEILDTDGDPVRRGVDYFILPAMTDVAGGLTLAPLPSPNYCPLYVAQAPLEAMSLQGLPVSFAPFKAGENIIRESMDLTATFSVATTCVLGTSWRIGVEDGRTGRRFIATEGLPSYFRIDRNTTLTNAYQIGWCPAAEACRNCDRNRCGAAGILTREGVGFLALDGPAFPFRFKRA",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-VXOD-2008816-Linum_tenuifolium/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

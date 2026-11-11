@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Thaumatin-I_1LR2___OneKP_scaffold-JRNA-2014244-Phyllocladus_hypohyllus": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "TSFTVLNNCEYNVWPGILSNAGIAPLSTTGFELSPGQSRVVATPTRWSGRLWGRTGCIFDAQGKGNCTTGDCGNQLQCNGAGALPPASLAEFTVGLGTDDFYDVSLVDGYNLPVVPNGGTGACIATGCIADINRSCPKELQVDDDTSSTVVACKSACEAFGNPEYCCSGLYANPNTCKPSSYSQLFKSACPRAYSYAFDDKTSTFTCRGADYAITFCPT",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Thaumatin-I_1LR2___OneKP_scaffold-JRNA-2014244-Phyllocladus_hypohyllus/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

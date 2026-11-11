@@ -1,0 +1,21 @@
+{
+    "queries": {
+        "Miraculin___OneKP_scaffold-BJSW-2010095-BJSW-Cannabis_sativa-4_samples_combined": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "EPTNNPVLDTTGNPLRRGVDYYIKPAVTDNGGRFTLVEGSEWCKLYVGQENDSSSEGLPVTFEPFAEGEDVIREMRDLKITFSANTICIVSTRWELEVQRDMEVRRRLIGTGSSGTGTNYFRIEKQNGNYIINWCPNEFCSRCRIDCGFVGAVVKNGTRFLALDGSVLPLVFERA",
+                    "main_msa_file_paths": [
+                        "/dcai/projects01/cu_0027/sweet_protein_monomers/alignments/Miraculin___OneKP_scaffold-BJSW-2010095-BJSW-Cannabis_sativa-4_samples_combined/uniref90_hits.a3m"
+                    ]
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            }
+        }
+    }
+}

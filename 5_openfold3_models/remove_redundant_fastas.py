@@ -1,59 +1,25 @@
 # Script to remove redundant FASTA entries from UniProtKB hits or sequences with non-canonical amino acids.
 import os
+import sys
 
-def check_canonical_aa(sequence):
-    """
-    Check if a sequence contains only canonical amino acids.
-
-    Args:
-        sequence (str): Amino acid sequence.
-    Returns:
-        bool: True if sequence contains only canonical amino acids, False otherwise.
-    """
-    AMINO_ACIDS = set("ACDEFGHIKLMNPQRSTVWY")
-    return all(residue in AMINO_ACIDS for residue in sequence)
-
-def fasta_to_dict(fasta_path):
-    """
-    Reads a fasta file to a dictionary with sequence names as keys and sequences as items.
-
-    Args:
-        fasta_path (str): Path to input fasta file
-
-    Returns:
-        dict: Dictionary of sequences
-    """
-    fasta_dict = {}
-    with open(fasta_path, 'r') as f:
-        seq = ''
-        for line in f:
-            if line.startswith('>'):
-                if seq:
-                    fasta_dict[key] = seq
-                    seq = ''
-                key = line.replace(">", "").strip()
-            else:
-                seq += line.strip()
-        fasta_dict[key] = seq
-    return fasta_dict
+# Custom imports from utils.py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_path = script_dir.split("WP2_Sweet_Protein_Discovery")[0] + "/WP2_Sweet_Protein_Discovery"
+sys.path.append(repo_path)
+from utils import fasta_to_dict, check_canonical_aa
 
 if __name__ == "__main__":
     
-    # Get directory of the script
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_name = "WP2_SweetProteinDiscovery"
-    repo_dir = script_dir.split(repo_name)[0] + repo_name
-
     # Read in list of redundant UniProt IDs to skip
     redundant_uniprot_ids = set()
-    redundant_ids_path = f"{repo_dir}/4_afdb_structures/proteins_to_remove_from_UniProtKB.txt"
+    redundant_ids_path = f"{repo_path}/4_afdb_structures/proteins_to_remove_from_UniProtKB.txt"
     if os.path.exists(redundant_ids_path):
         with open(redundant_ids_path, "r") as f:
             for line in f:
                 redundant_uniprot_ids.add(line.strip())
 
-    uniprot_dir = f"{repo_dir}/5_openfold3_models/fastas/uniprot_missing_structures/"
-    redundant_fasta_dir = f"{repo_dir}/5_openfold3_models/fastas/redundant_uniprot_sequences/"
+    uniprot_dir = f"{repo_path}/5_openfold3_models/fastas/uniprot_missing_structures/"
+    redundant_fasta_dir = f"{repo_path}/5_openfold3_models/fastas/redundant_uniprot_sequences/"
     os.makedirs(redundant_fasta_dir, exist_ok=True)
 
     # Set maximum sequence length to 1000
@@ -81,8 +47,8 @@ if __name__ == "__main__":
                 continue
 
     # Same filtering for onekp_hits
-    onekp_dir = f"{repo_dir}/5_openfold3_models/fastas/onekp_hits/"
-    redundant_onekp_fasta_dir = f"{repo_dir}/5_openfold3_models/fastas/redundant_onekp_sequences/"
+    onekp_dir = f"{repo_path}/5_openfold3_models/fastas/onekp_hits/"
+    redundant_onekp_fasta_dir = f"{repo_path}/5_openfold3_models/fastas/redundant_onekp_sequences/"
     os.makedirs(redundant_onekp_fasta_dir, exist_ok=True)
     onekp_fasta_files = [os.path.join(root, f) for root, dirs, files in os.walk(onekp_dir) for f in files if f.endswith(".fasta")]
     print("\n\n\n\nTotal OneKP FASTA files before filtering:", len(onekp_fasta_files))
@@ -93,9 +59,7 @@ if __name__ == "__main__":
         for seq_id, sequence in fasta_dict.items():
             onekp_id = seq_id
             if "+" in onekp_id:
-                # Replace + with _
                 onekp_fix_id = onekp_id.replace("+", "_")
-                # Rename fasta file accordingly
                 new_fasta_file = os.path.join(os.path.dirname(fasta_file), onekp_fix_id + ".fasta")
                 os.rename(fasta_file, new_fasta_file)
                 print(f"Renaming {fasta_file} to {new_fasta_file}")

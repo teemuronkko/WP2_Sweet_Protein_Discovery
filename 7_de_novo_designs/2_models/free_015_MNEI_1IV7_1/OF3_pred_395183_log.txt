@@ -1,0 +1,43 @@
+>> Running the following command:
+/var/spool/slurm//job395183/slurm_script json_paths.txt
+
+>> Start time:  Wed May  6 00:57:55 CEST 2026
+   Machine:     ilfgridgpun04fl.unicph.domain
+   Directory:   /projects/ilfgrid/people/pqh443/OpenFold3
+   GPU:         2
+
+>> OF3 input:
+   .json:      /maps/projects/ilfgrid/people/pqh443/OpenFold3/of3_jsons/free_015_MNEI_1IV7_1.json
+>> Starting prediction for free_015_MNEI_1IV7_1 
+
+WARNING:openfold3.entry_points.experiment_runner:No version_tensor is found for this checkpoint.Assuming the user knows checkpoints are parameters are compatible, continuing...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+/projects/ilfgrid/apps/openfold3_preview2/envs/of3_env/lib/python3.10/site-packages/openfold3/core/data/framework/data_module.py:571: UserWarning: Expected MSA file for chain A of type PROTEIN in query free_015_MNEI_1IV7_1, but no MSA files found. A dummy MSA with only the query sequence will be used for this chain.
+  self.inference_config.query_set = augment_main_msa_with_query_sequence(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+SLURM auto-requeueing enabled. Setting signal handlers.
+/projects/ilfgrid/apps/openfold3_preview2/envs/of3_env/lib/python3.10/site-packages/torch/utils/data/dataloader.py:424: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 8, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  self.check_worker_number_rationality()
+/projects/ilfgrid/apps/openfold3_preview2/envs/of3_env/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+Warning: The cache directory for DeepSpeed Triton autotune, /projects/ilfgrid/apps/openfold3_preview2/cache/triton, appears to be on an NFS system. While this is generally acceptable, if you experience slowdowns or hanging when DeepSpeed exits, it is recommended to set the TRITON_CACHE_DIR environment variable to a non-NFS path.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting: |          | 0/? [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][rank: 0] Seed set to 42
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:11<00:00,  0.09it/s]
+==================================================
+    PREDICTION SUMMARY (COMPLETE)    
+==================================================
+Total Queries Processed: 1
+  - Successful Queries:  1
+  - Failed Queries:      0
+==================================================
+
+Predicting DataLoader 0: 100%|██████████| 1/1 [00:11<00:00,  0.09it/s]
+Removing empty log directory...
+>> Prediction failed, or /projects/ilfgrid/people/pqh443/OpenFold3/Models/free_015_MNEI_1IV7_1/free_015_MNEI_1IV7_1_model.cif doesn't exist.
+
+
+>> Job finished at: Wed May  6 00:59:10 CEST 2026
+
+>> Runtime: 75 s

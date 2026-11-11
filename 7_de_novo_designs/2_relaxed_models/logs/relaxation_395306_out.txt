@@ -1,0 +1,500 @@
+>> Job with SLURM array id  started at: Wed May  6 12:24:13 CEST 2026
+   On Machine:     ilfgridgpun01fl.unicph.domain
+   In directory:   /home/pqh443
+
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_1.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_1.pdb.
+
+>> Job finished at: Wed May  6 12:24:27 CEST 2026
+>> Runtime: 14 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:24:37 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_15.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_15.pdb.
+
+>> Job finished at: Wed May  6 12:24:48 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_16.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_16.pdb.
+
+>> Job finished at: Wed May  6 12:25:00 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_2.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_2.pdb.
+
+>> Job finished at: Wed May  6 12:25:11 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_3.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_3.pdb.
+
+>> Job finished at: Wed May  6 12:25:23 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_5.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_5.pdb.
+
+>> Job finished at: Wed May  6 12:25:37 CEST 2026
+>> Runtime: 14 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_6.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_6.pdb.
+
+>> Job finished at: Wed May  6 12:25:49 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_8.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_015_MNEI_1IV7_8.pdb.
+
+>> Job finished at: Wed May  6 12:26:02 CEST 2026
+>> Runtime: 13 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:26:14 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_16.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_16.pdb.
+
+>> Job finished at: Wed May  6 12:26:26 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_2.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_2.pdb.
+
+>> Job finished at: Wed May  6 12:26:38 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_3.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_3.pdb.
+
+>> Job finished at: Wed May  6 12:26:49 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_5.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_5.pdb.
+
+>> Job finished at: Wed May  6 12:27:00 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_6.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_6.pdb.
+
+>> Job finished at: Wed May  6 12:27:11 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_8.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_01_MNEI_1IV7_8.pdb.
+
+>> Job finished at: Wed May  6 12:27:21 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_15.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_15.pdb.
+
+>> Job finished at: Wed May  6 12:27:33 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_18.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_18.pdb.
+
+>> Job finished at: Wed May  6 12:27:45 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_6.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_6.pdb.
+
+>> Job finished at: Wed May  6 12:27:56 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_7.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_7.pdb.
+
+>> Job finished at: Wed May  6 12:28:07 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_8.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_025_MNEI_1IV7_8.pdb.
+
+>> Job finished at: Wed May  6 12:28:19 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_1.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_1.pdb.
+
+>> Job finished at: Wed May  6 12:28:31 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_13.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_13.pdb.
+
+>> Job finished at: Wed May  6 12:28:41 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:28:52 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_18.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_18.pdb.
+
+>> Job finished at: Wed May  6 12:29:03 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_2.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_2.pdb.
+
+>> Job finished at: Wed May  6 12:29:15 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_3.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_3.pdb.
+
+>> Job finished at: Wed May  6 12:29:26 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_4.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_4.pdb.
+
+>> Job finished at: Wed May  6 12:29:37 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_6.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_6.pdb.
+
+>> Job finished at: Wed May  6 12:29:48 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_7.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_7.pdb.
+
+>> Job finished at: Wed May  6 12:30:00 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_8.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_02_MNEI_1IV7_8.pdb.
+
+>> Job finished at: Wed May  6 12:30:11 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_13.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_13.pdb.
+
+>> Job finished at: Wed May  6 12:30:21 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_18.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/fixed_03_MNEI_1IV7_18.pdb.
+
+>> Job finished at: Wed May  6 12:30:33 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_10.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_10.pdb.
+
+>> Job finished at: Wed May  6 12:30:44 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_13.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_13.pdb.
+
+>> Job finished at: Wed May  6 12:30:54 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:31:07 CEST 2026
+>> Runtime: 13 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_5.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_5.pdb.
+
+>> Job finished at: Wed May  6 12:31:17 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_7.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_015_MNEI_1IV7_7.pdb.
+
+>> Job finished at: Wed May  6 12:31:28 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_10.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_10.pdb.
+
+>> Job finished at: Wed May  6 12:31:39 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:31:51 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_15.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_15.pdb.
+
+>> Job finished at: Wed May  6 12:32:01 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_19.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_19.pdb.
+
+>> Job finished at: Wed May  6 12:32:12 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_4.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_4.pdb.
+
+>> Job finished at: Wed May  6 12:32:24 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_5.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_01_MNEI_1IV7_5.pdb.
+
+>> Job finished at: Wed May  6 12:32:34 CEST 2026
+>> Runtime: 10 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_10.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_10.pdb.
+
+>> Job finished at: Wed May  6 12:32:45 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:32:56 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_18.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_18.pdb.
+
+>> Job finished at: Wed May  6 12:33:07 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_19.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_19.pdb.
+
+>> Job finished at: Wed May  6 12:33:19 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_7.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_7.pdb.
+
+>> Job finished at: Wed May  6 12:33:30 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_9.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_025_MNEI_1IV7_9.pdb.
+
+>> Job finished at: Wed May  6 12:33:45 CEST 2026
+>> Runtime: 15 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_13.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_13.pdb.
+
+>> Job finished at: Wed May  6 12:33:56 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_14.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_14.pdb.
+
+>> Job finished at: Wed May  6 12:34:08 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_18.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_18.pdb.
+
+>> Job finished at: Wed May  6 12:34:19 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_19.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_19.pdb.
+
+>> Job finished at: Wed May  6 12:34:31 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_5.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_5.pdb.
+
+>> Job finished at: Wed May  6 12:34:42 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_6.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_6.pdb.
+
+>> Job finished at: Wed May  6 12:34:53 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_7.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_02_MNEI_1IV7_7.pdb.
+
+>> Job finished at: Wed May  6 12:35:04 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_10.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_10.pdb.
+
+>> Job finished at: Wed May  6 12:35:15 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_18.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_18.pdb.
+
+>> Job finished at: Wed May  6 12:35:26 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_19.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_19.pdb.
+
+>> Job finished at: Wed May  6 12:35:38 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_5.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_5.pdb.
+
+>> Job finished at: Wed May  6 12:35:50 CEST 2026
+>> Runtime: 12 s
+--------------------------------------------------
+
+>> ****** Relaxing /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_7.pdb ******
+
+>> Relaxation finished for /projects/ilfgrid/people/pqh443/3_selected_designs/free_03_MNEI_1IV7_7.pdb.
+
+>> Job finished at: Wed May  6 12:36:01 CEST 2026
+>> Runtime: 11 s
+--------------------------------------------------

@@ -6,37 +6,18 @@ import gzip
 import shutil
 import pandas as pd
 import subprocess
+import sys
+
+# Custom imports from utils.py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_path = script_dir.split("WP2_Sweet_Protein_Discovery")[0] + "/WP2_Sweet_Protein_Discovery"
+sys.path.append(repo_path)
+from utils import gunzip
 
 re_next_link = re.compile(r'<(.+)>; rel="next"')
 retries = Retry(total=5, backoff_factor=0.25, status_forcelist=[500, 502, 503, 504])
 session = requests.Session()
 session.mount("https://", HTTPAdapter(max_retries=retries))
-
-def gunzip(path, output_path=None, remove_original=False):
-    """
-    Unzip a .gz compressed file.
-    
-    Args:
-        path (str): Path to the .gz file.
-        output_path (str): Path to save the uncompressed file.
-        remove_original (bool): Whether to remove the original .gz file after unzipping.
-        
-    Returns:
-        path (str): Path to the uncompressed file.
-    """
-    if output_path is None:
-        output_path = path[:-3]  # Remove .gz extension
-
-    # Unzip the file
-    with gzip.open(path, 'rb') as input_file:
-        with open(output_path, 'wb') as output_file:
-            shutil.copyfileobj(input_file, output_file)
-
-    # Remove original file if specified
-    if remove_original and os.path.exists(output_path):
-        os.remove(path)
-
-    return output_path
 
 def get_next_link(headers):
     if "Link" in headers:
@@ -91,7 +72,6 @@ def get_variants(fasta_url: str, output_path: str, remove_original: bool = False
 if __name__ == "__main__":
 
     # Get script directory and build output file path
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     output_file = f"{script_dir}/uniprot_viridiplantae.fasta"
     url = "https://rest.uniprot.org/uniprotkb/search?format=fasta&includeIsoform=true&query=%28%28taxonomy_id%3A33090%29%29&size=500"
 

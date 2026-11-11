@@ -1,0 +1,19 @@
+{
+    "queries": {
+        "free_015_MNEI_1IV7_5": {
+            "chains": [
+                {
+                    "molecule_type": "protein",
+                    "chain_ids": [
+                        "A"
+                    ],
+                    "sequence": "MKKEIVPVDEFTQELGKFAVEEENKRGKFGKLEFDEVIEPVIKTTLYEKEGESKIKGYVYELYVIASGKLYKAVISENAETKEKKLLSFEGPVPLP"
+                }
+            ],
+            "model": {
+                "num_recycles": 3
+            },
+            "use_msas": false
+        }
+    }
+}

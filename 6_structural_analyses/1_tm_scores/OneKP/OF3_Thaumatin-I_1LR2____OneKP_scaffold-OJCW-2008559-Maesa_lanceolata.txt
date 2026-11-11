@@ -1,0 +1,24 @@
+
+ *********************************************************************
+ * TM-align (Version 20220412): protein structure alignment          *
+ * References: Y Zhang, J Skolnick. Nucl Acids Res 33, 2302-9 (2005) *
+ * Please email comments and suggestions to zhanglab@zhanggroup.org   *
+ *********************************************************************
+
+Name of Chain_1: /Users/pqh443/Documents/Git_projects/WP2_SweetProteinDiscovery/1_viridiplantae_prot_db/4_sweet_proteins/cleaned_pdbs/Thaumatin-I_1LR2.pdb (to be superimposed onto Chain_2)
+Name of Chain_2: /Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/WP2_SweetProteinDiscovery//5_openfold3_models/OneKP/OneKP_scaffold-OJCW-2008559-Maesa_lanceolata/OneKP_scaffold-OJCW-2008559-Maesa_lanceolata.temp/seed_42/OneKP_scaffold-OJCW-2008559-Maesa_lanceolata.temp_seed_42_sample_5_model.pdb
+Length of Chain_1: 207 residues
+Length of Chain_2: 304 residues
+
+Aligned length= 205, RMSD=   1.94, Seq_ID=n_identical/n_aligned= 0.420
+TM-score= 0.91838 (if normalized by length of Chain_1, i.e., LN=207, d0=5.35)
+TM-score= 0.63612 (if normalized by length of Chain_2, i.e., LN=304, d0=6.40)
+TM-score= 0.91838 (if normalized by user-specified LN=207.00 and d0=5.35)
+(You should use TM-score normalized by length of the reference structure)
+
+(":" denotes residue pairs of d <  5.0 Angstrom, "." denotes other aligned residues)
+------------------------ATFEIVNRCSYTVWAAASKGD--AALDAGGRQLNSGESWTINVEPGTNGGKIWARTDCYFDDSGSGICKTGDCG-GLLRC-KRFGRPPTTLAEFSLNQY-GKDYIDISNIKGFNVPMNFSPTTRG---CRGVRCAADIVGQCPAKLKAPG----GGCNDACTVFQTSEYCCTT--G---KCGPTEYSRFFKRLCPDAFSYVLDKP-TTVTCPGSSNYRVTFCPTA---------------------------------------------------------
+                        :::::::::::::::::::::  .:::::::::::::::::::::::: :::::::::::....:::::::::: ::::: :::::::::::::::::: :::::::::::::::::::::::::   ::::::::::::::::::::::    :::::::::::::::::::  :   :::::::::::::::::::::::::: :::::: :::::::::::.                                                         
+MAQICLLVSLFTFPSLFISGAFASATFTFLNKCQHTVWPGILSNAGIAPLSTTGFSLQNGESRTINAPSSWG-GRFWGRTHCGADSAGKFTCITGDCGSGQVECAGGNAAPPATLAEFTLDGGGGMDFFDVSLVDGYNLPMVVVPQGGSGQNCTTTGCGVDLNGACPSELGVSAGGESVACKSACEAFGQAEYCCSGAYSTPDTCKPSSYSEWFKTACPRAYSYAYDDHSSTFTCT-GADYLITFCPTPSTSQKSSGGQNPVINSSMVYSGTSDTSGASAPSTCYHAHRSEAISIAVALAVAMWRL
+
+Total CPU time is  0.04 seconds

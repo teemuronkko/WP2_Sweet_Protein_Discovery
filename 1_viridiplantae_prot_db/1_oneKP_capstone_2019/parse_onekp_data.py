@@ -3,6 +3,13 @@ import os
 from Bio import SeqIO
 import tarfile
 import shutil
+import sys
+
+# Custom imports from utils.py
+script_dir = os.path.dirname(os.path.abspath(__file__))
+repo_path = script_dir.split("WP2_Sweet_Protein_Discovery")[0] + "/WP2_Sweet_Protein_Discovery"
+sys.path.append(repo_path)
+from utils import gunzip
 
 def read_id(tsv_path):
     """
@@ -53,7 +60,6 @@ def unzip_tarbz2_file(path, output_path):
     if output_path is None:
         output_path = path.replace(".tar.bz2", "")
     
-    # Remove existing folder if it exists
     if os.path.exists(output_path):
         shutil.rmtree(output_path)
 
@@ -78,41 +84,15 @@ def read_index(index_path):
     index_df = pd.read_csv(index_path, sep="\t", header=None, names=["ID", "OneKP_ID"])
     return index_df
 
-def gunzip(path, output_path=None):
-    """
-    Unzips a .gz compressed file.
-
-    Args:
-        path (str): Path to the .gz file.
-        output_path (str): Path to save the uncompressed file.
-
-    Returns:
-        path (str): Path to the uncompressed file.
-    """
-    import gzip
-    import shutil
-
-    if output_path is None:
-        output_path = path.replace(".gz", "")
-
-    with gzip.open(path, 'rb') as f_in:
-        with open(output_path, 'wb') as f_out:
-            shutil.copyfileobj(f_in, f_out)
-
-    return output_path
-
 def process_folder(folder):
     output_path = None
     for file in os.listdir(folder):
         if file.endswith("translated.tar.bz2"):
             bz_path = os.path.join(folder, file)
             output_path = os.path.join(folder, file.replace(".tar.bz2", ""))
-
-            # Remove existing folder if it exists
             if os.path.exists(output_path):
                 shutil.rmtree(output_path)
             
-            # Unzip the tar.bz2 file
             output_path = unzip_tarbz2_file(bz_path, output_path)
             break
 
@@ -143,11 +123,9 @@ def process_folder(folder):
                 fasta_path = os.path.join(folder, file)
                 fasta_path = gunzip(fasta_path)
                 seq_df = read_sequences(fasta_path)
-                # remove unzipped file
                 if os.path.exists(fasta_path):
                     os.remove(fasta_path)
 
-    # Make sure index_df, seq_df, and id_df have all ID column as str
     if index_df is not None:
         index_df["ID"] = index_df["ID"].astype(str)
     if seq_df is not None:
@@ -165,7 +143,6 @@ def process_folder(folder):
     
     merged_df["Organism"] = folder.split("/")[-1]
 
-    # Loop through the rows and if OneKP_ID is NaN, manually parse Id
     for idx, row in merged_df.iterrows():
         if pd.isna(row["OneKP_ID"]):
             original_id = row["ID"]
@@ -176,7 +153,6 @@ def process_folder(folder):
             if idx == 0:
                 print("New name", merged_df.at[idx, "OneKP_ID"])
 
-    # Remove the unzipped folder 
     if output_path is not None and os.path.exists(output_path):
         shutil.rmtree(output_path)
 
@@ -198,11 +174,7 @@ def parse_transcripts(input_folder, output_dir, output_file):
     Returns:
         None
     """
-
-    # Make output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
-
-    # Process each folder in the input directory
     for folder in os.listdir(input_folder):
         folder_path = os.path.join(input_folder, folder)
         if os.path.isdir(folder_path):
@@ -214,7 +186,6 @@ def parse_transcripts(input_folder, output_dir, output_file):
             except Exception as e:
                 print(f"Error processing folder {folder_path.split('/')[-1]}. Error message: {e}")
 
-    # Combine all individual TSV files into one and save it as oneKP_all_transcripts.tsv
     if not os.path.exists(output_file):
         all_dfs = []
         for file in os.listdir(output_dir):
@@ -231,14 +202,7 @@ def parse_transcripts(input_folder, output_dir, output_file):
         print(f"Combined output file {output_file} already exists. Skipping combining step.")
 
 if __name__ == "__main__":
-
-    # Get directory of the script
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-
-    # Define input and output paths
     output_dir = f"{script_dir}/parsed_transcripts"
     output_file = f"{script_dir}/oneKP_all_transcripts.tsv"
-    google_folder = "/Users/pqh443/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/onekp-data_copied/"
-
-    # Run the parsing function
+    google_folder = "~/Library/CloudStorage/GoogleDrive-ronkko.teemu@gmail.com/My Drive/onekp-data_copied/"
     parse_transcripts(google_folder, output_dir, output_file)
